@@ -1,0 +1,117 @@
+<div class="header">{{component}}</div>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b> Global </b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li (click)="changePage('global/scss')"> SCSS</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-divider></mat-divider>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b>Icons</b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li (click)="changePage('icons/msda-icon')"> msda-icon</li>
+                    <li (click)="changePage('icons/msda-plate-icon')"> msda-plate-icon</li>
+                    <li (click)="changePage('icons/msda-icon-label')"> msda-icon-label</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-divider></mat-divider>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b> Navigation </b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li (click)="changePage('navigation/msda-banner-button')"> msda-banner-button</li>
+                    <li (click)="changePage('navigation/msda-card-buttons-container')"> msda-card-buttons-container</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-divider></mat-divider>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b> Dialog </b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li (click)="changePage('dialog/msda-dialog')"> msda-dialog</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-divider></mat-divider>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b>Data table</b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <ul>
+                    <li (click)="changePage('data-table/msda-paginator')">paginator</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-divider></mat-divider>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b> Buttons & Indicators </b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li (click)="changePage('buttons/msda-menu-button')"> msda-menu-button</li>
+                    <li (click)="changePage('buttons/msda-button')"> msda-button</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-divider></mat-divider>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b> Toast </b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li (click)="changePage('toast/msda-toast')"> msda-toast</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-divider></mat-divider>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <b> Cards </b>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li (click)="changePage('cards/msda-module-card')"> msda-module-button</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+

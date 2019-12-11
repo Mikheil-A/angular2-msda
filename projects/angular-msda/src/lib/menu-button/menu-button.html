@@ -1,0 +1,10 @@
+<div class="msda-menu-button-body">
+    <button class="button" (click)="onClick($event)">
+        <span class="block"></span>
+        <span *ngIf="active" class="block-active"></span>
+        <span *ngIf="notifCounter" class="badge msda-body-2-bold">{{notifCounter < 100 ? notifCounter : '!'}}</span>
+        <span class="content msda-display-2">
+            <ng-content></ng-content>
+        </span>
+    </button>
+</div>

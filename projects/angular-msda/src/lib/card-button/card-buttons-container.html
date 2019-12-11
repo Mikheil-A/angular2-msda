@@ -1,0 +1,5 @@
+<div class="msda-card-buttons-container-inner" [style.grid-template-columns]="gridTemplateColumns">
+  <ng-template ngFor let-item [ngForOf]="dataSource">
+    <msda-card-button [title]="item.title" [text]="item.text" [icon]="item.icon" [iconType]="item.iconType" [iconBackgroundColor]="item.iconBackgroundColor" (buttonClick)="buttonClick.emit($event)"></msda-card-button>
+  </ng-template>
+</div>

@@ -1,0 +1,33 @@
+<div style="height: 100%; padding: 24px;">
+    <div class="container" fxLayout="row">
+        <msda-menu-button
+            [active]=true
+            [notifCounter]=0
+            (click)=submit($event)
+        ><h2 class="msda-display-2">მიმოწერა</h2></msda-menu-button>
+
+        <msda-menu-button
+            [active]=false
+            [notifCounter]=0
+            (click)=submit($event)>
+            <h2 class="msda-display-2">
+                შაბლონები
+            </h2>
+        </msda-menu-button>
+
+        <msda-menu-button
+            [active]=false
+            [notifCounter]=5
+            (click)=submit($event)
+        ><h2 class="msda-display-2">შეთავაზებები</h2></msda-menu-button>
+        <msda-menu-button
+            [active]=false
+            [notifCounter]=110
+            (click)=submit($event)
+        ><h2 class="msda-display-2">სიახლეები</h2></msda-menu-button>
+    </div>
+
+
+    <markdown [src]="'/assets/examples/msda-menu-button/example-1.md'" (error)="onError($event)"
+              ngPreserveWhitespaces></markdown>
+</div>

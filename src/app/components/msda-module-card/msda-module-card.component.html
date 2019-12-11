@@ -1,0 +1,18 @@
+<div style="height: 100%; padding: 24px;">
+    <div class="container" fxLayout="row" fxLayoutGap="10px">
+        <msda-module-card
+            icon="parking"
+            color="#2B7BB0"
+            title="ზონალური პარკირება"
+            [warn]="true"
+            (click)=onClick($event)
+            (remove)="onRemove($event)"
+        ></msda-module-card>
+    </div>
+
+    <markdown [src]="'/assets/examples/msda-module-card/example-1.md'" (error)="onError($event)"
+              ngPreserveWhitespaces></markdown>
+</div>
+
+
+

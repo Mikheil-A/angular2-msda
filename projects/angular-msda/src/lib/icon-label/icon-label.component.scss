@@ -1,0 +1,30 @@
+.icon-label {
+    width: 100%;
+    min-width: 163px;
+    padding: 6px 9px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    cursor: pointer;
+    .icon-label-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .icon {
+            msda-icon {
+                display: flex;
+                vertical-align: middle;
+            }
+            &.remove {
+                cursor: pointer;
+            }
+        }
+        .text {
+            margin: 0 9px;
+            font-family: 'BPG DejaVu Sans';
+            font-size: 11px;
+            letter-spacing: 0.01em;
+        }
+    }
+}

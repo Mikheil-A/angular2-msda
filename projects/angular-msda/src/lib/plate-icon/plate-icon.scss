@@ -1,0 +1,12 @@
+$msda-plate-size: 48px !default;
+
+.wrapper {
+    position: relative;
+    width: $msda-plate-size;
+    height: $msda-plate-size;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

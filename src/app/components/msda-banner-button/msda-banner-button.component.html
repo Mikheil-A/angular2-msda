@@ -1,0 +1,14 @@
+<div style="height: 100%; padding: 24px;">
+    <msda-banner-button
+        icon="culture"
+        image="https://via.placeholder.com/350x150"
+        title="კულტურა"
+        text="„თბილისობა 2018“ 6 -7 ოქტომბერს გაიმართება და დღესასწაულის აღნიშვნის ტრადიცია, ოქტომბრის ..."
+        date="19 მაისი, 2015"
+        color="#A95482"
+        (buttonClick)="onButtonClick($event)"
+    ></msda-banner-button>
+
+    <markdown [src]="'/assets/examples/msda-banner-button/example-1.md'" (load)="onLoad($event)"
+              (error)="onError($event)" ngPreserveWhitespaces></markdown>
+</div>

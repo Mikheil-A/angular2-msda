@@ -1,0 +1,41 @@
+<div class="card" (click)="onClick($event)">
+    <div class="content">
+        <div class="flip-wrapper">
+            <div class="icon flip-box" [@flipState]="flip">
+                <msda-plate-icon
+                    class="msda-module-card-icon side front"
+                    [name]="icon"
+                    type="circle"
+                    width="56"
+                    height="56"
+                    color="#FFFFFF"
+                    [background]="color"
+                    (click)="toggleFlip($event)">
+                </msda-plate-icon>
+
+                <msda-plate-icon
+                    class="msda-module-card-icon side back"
+                    name="remove"
+                    type="circle"
+                    width="56"
+                    height="56"
+                    color="black"
+                    background="#FFFFFF"
+                    (click)="onRemove($event)"
+                    (mouseenter)="onMouseEnter($event)"
+                    (mouseleave)="onMouseLeave($event)">
+                </msda-plate-icon>
+            </div>
+        </div>
+        <div class="title">{{title}}</div>
+    </div>
+    <div class="warn" *ngIf="warn">
+        <msda-icon
+            name="warning"
+            width="22"
+            height="22"
+            color="#E3515A">
+        </msda-icon>
+    </div>
+</div>
+

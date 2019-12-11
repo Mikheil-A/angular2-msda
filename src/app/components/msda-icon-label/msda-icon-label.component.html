@@ -1,0 +1,13 @@
+<div style="height: 100%; padding: 24px;">
+    <div class="container" fxLayout="row" fxLayoutGap="10px">
+        <msda-icon-label
+            icon="image"
+            color="#E3515A"
+            text="13: 30 10.03.18 "
+            (click)=onClick($event)
+            (remove)="onRemove($event)">
+        </msda-icon-label>
+    </div>
+    <markdown [src]="'/assets/examples/msda-icon-label/example-1.md'" (error)="onError($event)"
+              ngPreserveWhitespaces></markdown>
+</div>

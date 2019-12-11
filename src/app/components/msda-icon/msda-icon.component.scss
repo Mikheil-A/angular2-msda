@@ -1,0 +1,48 @@
+.input-container {
+    position: relative;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    input {
+        font-size: 14px;
+        box-sizing: border-box;
+        border: none;
+        box-shadow: none;
+        outline: none;
+        color: rgba(0, 0, 0, 0.87);
+        width: 100%;
+        padding: 0 15px;
+        line-height: 40px;
+        height: 40px;
+    }
+    .x {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        cursor: pointer;
+        i {
+            color: rgba(0, 0, 0, 0.54);
+            font-size: 22px;
+            line-height: 40px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.icon-container {
+    height: 80px;
+    width: 80px;
+    padding: 8px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+
+    .label {
+        display: block;
+        max-width: 112px;
+        padding: 0 7px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, .6);
+        text-align: center;
+    }
+}

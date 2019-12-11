@@ -1,0 +1,73 @@
+.msda-card-button,
+.msda-card-button-body {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.msda-card-button {
+  display: flex;
+  flex-direction: column;
+  background: #F7F7FA;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  &:hover {
+    .msda-card-button-header .msda-card-button-move-handler {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .msda-card-button-body,
+  .msda-card-button-header {
+    padding: 12px 24px;
+  }
+
+  .msda-card-button-header .msda-card-button-title,
+  .msda-card-button-body .msda-card-button-text {
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #333333;
+  }
+
+  .msda-card-button-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #F0F0F7;
+    box-shadow: 0px 1px 0px #E0E0E0;
+    z-index: 1;
+
+    .msda-card-button-title {
+      flex: 1 1 auto;
+      font-family: BPG DejaVu Sans Caps Web;
+    }
+
+    .msda-card-button-move-handler {
+      cursor: move;
+      opacity: 0;
+      visibility: hidden;
+      transition-property: opacity, visibility;
+      transition-duration: 200ms;
+    }
+  }
+
+  .msda-card-button-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .msda-card-button-text {
+      margin-left: 16px;
+      font-family: BPG DejaVu Sans;
+    }
+  }
+}
+
+.sortable-placeholder,
+.msda-card-button-placeholder {
+  min-height: 112px;
+  border: 2px dashed #333;
+  border-radius: 0 0 8px 8px;
+}

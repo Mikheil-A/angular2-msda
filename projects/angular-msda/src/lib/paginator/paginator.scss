@@ -1,0 +1,63 @@
+@import '../core/style/variables.scss';
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-white;
+    box-shadow: 0 1px 0 $color-border;
+    padding: 8px 24px;
+    color: $color-font-secondary;
+
+    #right-end {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        #select-number-of-records {
+            select {
+                border: none;
+                color: $color-font-secondary;
+            }
+        }
+
+        #paging-navigation {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 70px;
+
+            msda-icon {
+                cursor: pointer;
+            }
+
+            #current-page-index-indicator {
+                margin: 0 0 0 30px;
+                font-weight: bold;
+            }
+
+            input[type="number"] {
+                background-color: $color-hover-gray;
+                border-radius: 2px;
+                border: none;
+                padding: 10px 12px;
+                box-sizing: border-box;
+                width: 64px;
+                font-weight: bold;
+
+                // turning off number input spinners
+                &::-webkit-outer-spin-button,
+                &::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+            }
+
+            #total-number-of-pages {
+                margin: 0 30px 0 4px;
+                color: $color-font-secondary;
+            }
+        }
+    }
+}

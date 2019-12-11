@@ -1,0 +1,45 @@
+.msda-banner-button {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.msda-banner-button-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.msda-banner-button-icon {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.msda-banner-button-date {
+  color: #777;
+}
+
+.msda-banner-button-text,
+.msda-banner-button-header,
+.msda-banner-button-read-more {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.msda-banner-button-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.msda-banner-button-read-more {
+  margin-bottom: 24px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+
+  span {
+    margin-left: 10px;
+  }
+}

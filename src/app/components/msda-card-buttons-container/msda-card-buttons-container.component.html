@@ -1,0 +1,12 @@
+<div style="height: 100%; padding: 24px;">
+    <msda-card-buttons-container
+        [row]="3"
+        [column]="3"
+        [dragEnabled]="true"
+        [dataSource]="itemsList"
+        (sortupdate)="onSortUpdate($event)"
+        (buttonClick)="onButtonClick($event)"
+    ></msda-card-buttons-container>
+
+    <markdown [src]="'/assets/examples/msda-card-button/example-1.md'" (load)="onLoad($event)" (error)="onError($event)" ngPreserveWhitespaces></markdown>
+</div>

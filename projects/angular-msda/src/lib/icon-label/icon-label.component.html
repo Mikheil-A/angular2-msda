@@ -1,0 +1,24 @@
+<div class="icon-label" (click)="onClick($event)">
+    <div class="icon-label-content">
+        <div class="icon">
+            <msda-icon
+                [name]="icon"
+                width="18"
+                height="18"
+                [color]="color">
+            </msda-icon>
+        </div>
+        <div class="text">
+            <span [style.color]="color">{{text}}</span>
+        </div>
+        <div class="icon remove">
+            <msda-icon
+                name="cancel_circle"
+                width="18"
+                height="18"
+                color="gray"
+                (click)="onRemove($event)">
+            </msda-icon>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<div style="padding: 24px;">
+    <msda-button type="submit" color="#3f51b5" [disabled]="false" (click)=openDialog() [showLoading]="isLoading">
+        <span>Open Dialog</span>
+    </msda-button>
+
+
+    <markdown [src]="'/assets/examples/msda-dialog/example-1.md'" (load)="onLoad($event)" (error)="onError($event)"
+              ngPreserveWhitespaces></markdown>
+</div>

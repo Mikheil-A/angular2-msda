@@ -1,0 +1,15 @@
+<img class="msda-banner-button-image" [src]="image" alt="">
+<msda-plate-icon class="msda-banner-button-icon" [name]="icon" type="square" width="48" height="48" color="#FFFFFF" [background]="color"></msda-plate-icon>
+<div class="msda-banner-button-header">
+  <span class="msda-banner-button-title msda-display-2">{{ title }}</span>
+  <span class="msda-banner-button-date">{{ date }}</span>
+</div>
+<p class="msda-banner-button-text msda-body-1">{{ text }}</p>
+<a class="msda-banner-button-read-more" href="javascript:;" (click)="buttonClick.emit($event)">
+  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4.25437C7.58172 4.25437 4 7.81069 4 12.1976C4 16.5846 7.58172 20.1409 12 20.1409C16.4183 20.1409 20 16.5846 20 12.1976C20 7.81069 16.4183 4.25437 12 4.25437ZM2 12.1976C2 6.71395 6.47715 2.26855 12 2.26855C17.5228 2.26855 22 6.71395 22 12.1976C22 17.6813 17.5228 22.1267 12 22.1267C6.47715 22.1267 2 17.6813 2 12.1976Z" [attr.fill]="color" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2929 7.92168C11.6834 7.53392 12.3166 7.53392 12.7071 7.92168L16.3071 11.4961C16.6976 11.8839 16.6976 12.5126 16.3071 12.9003L12.7071 16.4748C12.3166 16.8625 11.6834 16.8625 11.2929 16.4748C10.9024 16.087 10.9024 15.4584 11.2929 15.0706L14.1858 12.1982L11.2929 9.32586C10.9024 8.9381 10.9024 8.30943 11.2929 7.92168Z" [attr.fill]="color" />
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.40039 12.198C7.40039 11.6496 7.84811 11.2051 8.40039 11.2051H15.6004C16.1527 11.2051 16.6004 11.6496 16.6004 12.198C16.6004 12.7464 16.1527 13.1909 15.6004 13.1909H8.40039C7.84811 13.1909 7.40039 12.7464 7.40039 12.198Z" [attr.fill]="color" />
+  </svg>
+  <span>{{ readMoreText }}</span>
+</a>

@@ -1,0 +1,59 @@
+.button {
+    position: relative;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #f6f6f6;
+    font-size: 20px;
+    outline: none;
+}
+
+
+.button:hover .block{
+    display: block;
+}
+
+.content {
+    font-family: BPG DejaVu Sans Caps Web;
+}
+
+.badge {
+    position:absolute;
+    height: 18px;
+    width: 24px;
+    color: #FFFFFF;
+    background: #E3515A;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    top:5px;
+    right:12px;
+}
+
+.block {
+    display: none;
+    position:absolute;
+    height: 8px;
+    width: 8px;
+    color: white;
+    background-color: black;
+    padding-top: 1px;
+    top: 20px;
+    left: 25px;
+}
+
+.block-active {
+    position:absolute;
+    height: 8px;
+    width: 8px;
+    color: white;
+    background-color: black;
+    padding-top: 1px;
+    top: 20px;
+    left: 25px;
+}
