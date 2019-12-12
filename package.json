@@ -8,8 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-
-    "angularmsdabuild": "ng build angular-msda",
+    "angularmsdabuild": "ng build angular-msda && gulp copyLibraryAssetsFolderToDist",
     "angularmsdapublish": "cd dist/angular-msda && npm publish"
   },
   "private": true,

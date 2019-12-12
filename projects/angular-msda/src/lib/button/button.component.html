@@ -1,28 +1,13 @@
 <button class="button" [type]="type" [style.backgroundColor]="color" [disabled]="disabled" (click)="onClick($event)">
-    <span class="loader" *ngIf="showLoading"></span>
-    <span class="content">
+  <span class="loader" *ngIf="showLoading"></span>
+  <span class="content">
        <!-- icon -->
     <span class="icon">
             <ng-content select="msda-icon"></ng-content>
         </span>
-        <!-- text -->
+    <!-- text -->
     <span class="text">
             <ng-content select="span"></ng-content>
         </span>
 </span>
 </button>
-
-
-<h1>
-    TEST--
-</h1>
-
-
-<button mat-button>Click me!</button>
-
-<mat-chip-list aria-label="Fish selection">
-    <mat-chip>One fish</mat-chip>
-    <mat-chip>Two fish</mat-chip>
-    <mat-chip color="primary" selected>Primary fish</mat-chip>
-    <mat-chip color="accent" selected>Accent fish</mat-chip>
-</mat-chip-list>

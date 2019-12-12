@@ -29,16 +29,16 @@
             "styles": [
               "src/styles.scss",
               "src/assets/fonts/stylesheet.css",
-//              "dist/angular-msda-styles/globals.css",
+              //              "dist/angular-msda-styles/globals.css",
               "node_modules/prismjs/themes/prism-coy.css"
             ],
             "scripts": [
-                "node_modules/prismjs/prism.js",
-                "node_modules/prismjs/components/prism-css.min.js",
-                "node_modules/prismjs/components/prism-scss.min.js",
-                "node_modules/prismjs/components/prism-markup.min.js",
-                "node_modules/prismjs/components/prism-typescript.min.js",
-                "node_modules/html5sortable/dist/html5sortable.min.js"
+              "node_modules/prismjs/prism.js",
+              "node_modules/prismjs/components/prism-css.min.js",
+              "node_modules/prismjs/components/prism-scss.min.js",
+              "node_modules/prismjs/components/prism-markup.min.js",
+              "node_modules/prismjs/components/prism-typescript.min.js",
+              "node_modules/html5sortable/dist/html5sortable.min.js"
             ]
           },
           "configurations": {
@@ -95,16 +95,16 @@
             "styles": [
               "src/styles.scss",
               "src/assets/fonts/stylesheet.css",
-//              "dist/angular-msda-styles/globals.css",
+              //              "dist/angular-msda-styles/globals.css",
               "node_modules/prismjs/themes/prism-coy.css"
             ],
             "scripts": [
-                "node_modules/prismjs/prism.js",
-                "node_modules/prismjs/components/prism-css.min.js",
-                "node_modules/prismjs/components/prism-scss.min.js",
-                "node_modules/prismjs/components/prism-markup.min.js",
-                "node_modules/prismjs/components/prism-typescript.min.js",
-                "node_modules/html5sortable/dist/html5sortable.min.js"
+              "node_modules/prismjs/prism.js",
+              "node_modules/prismjs/components/prism-css.min.js",
+              "node_modules/prismjs/components/prism-scss.min.js",
+              "node_modules/prismjs/components/prism-markup.min.js",
+              "node_modules/prismjs/components/prism-typescript.min.js",
+              "node_modules/html5sortable/dist/html5sortable.min.js"
             ],
             "assets": [
               "src/favicon.ico",

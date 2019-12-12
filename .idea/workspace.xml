@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5874cdb5-0bc2-4867-b73a-fe7ee8243227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/assets/msda-custom-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/assets/teststyle.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/angular-msda/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/button/button.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/button/button.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +24,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular2-msda-test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,7 +39,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src\assets" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576061921248</updated>
       <workItem from="1576061922970" duration="8804000" />
-      <workItem from="1576070937532" duration="1551000" />
+      <workItem from="1576070937532" duration="5606000" />
+      <workItem from="1576136479025" duration="13058000" />
     </task>
     <servers />
   </component>
