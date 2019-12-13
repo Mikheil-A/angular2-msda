@@ -29,7 +29,6 @@
             "styles": [
               "src/styles.scss",
               "src/assets/fonts/stylesheet.css",
-              //              "dist/angular-msda-styles/globals.css",
               "node_modules/prismjs/themes/prism-coy.css"
             ],
             "scripts": [
@@ -95,7 +94,6 @@
             "styles": [
               "src/styles.scss",
               "src/assets/fonts/stylesheet.css",
-              //              "dist/angular-msda-styles/globals.css",
               "node_modules/prismjs/themes/prism-coy.css"
             ],
             "scripts": [
