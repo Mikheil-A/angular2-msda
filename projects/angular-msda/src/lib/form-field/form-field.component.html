@@ -1,0 +1,21 @@
+<mat-form-field appearance="outline">
+  <mat-label>{{placeholder}}</mat-label>
+
+  <msda-icon *ngIf="prefixIcon" matPrefix
+             [name]="prefixIcon"
+             width="22"
+             height="22"
+             color="#E3515A">
+  </msda-icon>
+
+  <input matInput [placeholder]="placeholder" [value]="value ? value: ''" (input)="onInput($event)">
+
+  <msda-icon *ngIf="suffixIcon" matSuffix
+             [name]="suffixIcon"
+             width="22"
+             height="22"
+             color="#E3515A">
+  </msda-icon>
+
+  <mat-hint *ngIf="hint">{{hint}}</mat-hint>
+</mat-form-field>

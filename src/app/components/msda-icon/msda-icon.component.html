@@ -1,26 +1,26 @@
 <div fxLayout="column" style="height: 100%; padding: 24px;">
-    <markdown [src]="'/assets/examples/msda-icon/example-1.md'" (load)="onLoad($event)" (error)="onError($event)"
-              ngPreserveWhitespaces></markdown>
+  <markdown [src]="'/assets/examples/msda-icon/example-1.md'" (load)="onLoad($event)" (error)="onError($event)"
+            ngPreserveWhitespaces></markdown>
 
-    <div class="input-container">
-        <input type="text" placeholder="Filter by name"
-               [(ngModel)]=query>
-        <div class="x" *ngIf="query" (click)="remove()">
-            <i class="material-icons">close</i>
-        </div>
+  <div class="input-container">
+    <input type="text" placeholder="Filter by name"
+           [(ngModel)]=query>
+    <div class="x" *ngIf="query" (click)="remove()">
+      <i class="material-icons">close</i>
     </div>
+  </div>
 
-    <div fxLayout="row wrap">
-        <div *ngFor="let icon of icons | filter : query">
-            <div class="icon-container">
-                <msda-icon
-                    name="{{icon.name}}"
-                    width="{{icon.width}}"
-                    height="{{icon.height}}"
-                    color="{{icon.color}}">
-                </msda-icon>
-                <div class="label">{{icon.name}}</div>
-            </div>
-        </div>
+  <div fxLayout="row wrap">
+    <div *ngFor="let icon of icons | filter : query">
+      <div class="icon-container">
+        <msda-icon
+            name="{{icon.name}}"
+            width="{{icon.width}}"
+            height="{{icon.height}}"
+            color="{{icon.color}}">
+        </msda-icon>
+        <div class="label">{{icon.name}}</div>
+      </div>
     </div>
+  </div>
 </div>

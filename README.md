@@ -11,7 +11,7 @@
 npm i angular-msda
 ```
 
-### Step 2: Import MSDA theme into style.css:
+### Step 2: Import MSDA theme into styles.css:
 ```css
 @import "~angular-msda/msda-theme/msda-theme.scss";
 ```

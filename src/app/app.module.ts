@@ -30,6 +30,7 @@ import { MsdaBannerButtonComponent } from './components/msda-banner-button/msda-
 import { MsdaToastComponent } from './components/msda-toast/msda-toast.component';
 import { MsdaModuleCardComponent } from './components/msda-module-card/msda-module-card.component';
 import { MsdaIconLabelComponent } from './components/msda-icon-label/msda-icon-label.component';
+import { MsdaFormFieldComponent } from './components/msda-form-field/msda-form-field.component';
 
 @NgModule({
     declarations: [
@@ -51,7 +52,8 @@ import { MsdaIconLabelComponent } from './components/msda-icon-label/msda-icon-l
         MsdaBannerButtonComponent,
         MsdaToastComponent,
         MsdaModuleCardComponent,
-        MsdaIconLabelComponent
+        MsdaIconLabelComponent,
+        MsdaFormFieldComponent
     ],
     imports: [
         FlexLayoutModule,

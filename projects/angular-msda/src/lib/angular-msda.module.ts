@@ -18,50 +18,53 @@ import {MSDAToast} from './toast/toast';
 import {MSDAToastService} from './toast/toast.service';
 import {ModuleCardComponent} from './module-card/module-card.component';
 import {IconLabelComponent} from './icon-label/icon-label.component';
+import {FormFieldComponent} from './form-field/form-field.component';
 
 
 
 @NgModule({
-    declarations: [
-        // msda components
-        MSDAIcon,
-        MSDAPlateIcon,
-        MSDACardButton,
-        MSDACardButtonsContainer,
-        MSDABannerButton,
-        MSDAPaginator,
-        MSDAMenuButton,
-        MSDAToast,
-        ButtonComponent,
-        ModuleCardComponent,
-        IconLabelComponent
-    ],
-    imports: [
-        CommonModule,
-        FormsModule,
+  declarations: [
+    // msda components
+    MSDAIcon,
+    MSDAPlateIcon,
+    MSDACardButton,
+    MSDACardButtonsContainer,
+    MSDABannerButton,
+    MSDAPaginator,
+    MSDAMenuButton,
+    MSDAToast,
+    ButtonComponent,
+    ModuleCardComponent,
+    IconLabelComponent,
+    FormFieldComponent
+  ],
+  imports: [
+    CommonModule,
+    FormsModule,
 
-        MatModule
-    ],
-    exports: [
-        // msda components
-        MSDAIcon,
-        MSDAPlateIcon,
-        MSDACardButton,
-        MSDACardButtonsContainer,
-        MSDABannerButton,
-        MSDAPaginator,
-        MSDAMenuButton,
-        MSDAToast,
-        ButtonComponent,
-        ModuleCardComponent,
-        IconLabelComponent
-    ],
-    entryComponents: [
-        MSDAToast
-    ],
-    providers: [
-        MSDAToastService
-    ]
+    MatModule
+  ],
+  exports: [
+    // msda components
+    MSDAIcon,
+    MSDAPlateIcon,
+    MSDACardButton,
+    MSDACardButtonsContainer,
+    MSDABannerButton,
+    MSDAPaginator,
+    MSDAMenuButton,
+    MSDAToast,
+    ButtonComponent,
+    ModuleCardComponent,
+    IconLabelComponent,
+    FormFieldComponent
+  ],
+  entryComponents: [
+    MSDAToast
+  ],
+  providers: [
+    MSDAToastService
+  ]
 })
 export class AngularMsdaModule {
 }
