@@ -1,19 +1,36 @@
 <div style="height: 100%; padding: 24px;">
   <div class="container" fxLayout="row" fxLayoutGap="10px">
-    <msda-button type="submit" color="#3f51b5" [disabled]="false" (click)=submit($event) [showLoading]="isLoading">
+
+    <msda-button type="submit" bgColor="#3f51b5" [disabled]="false" (click)=submit($event) [showLoading]="isLoading">
       <msda-icon name="save" width="20" height="20" color="#FFFFFF"></msda-icon>
       <span>შენახვა</span>
     </msda-button>
 
-    <msda-button type="submit" color="#f44336" [disabled]="false" (click)=submit($event) [showLoading]="false">
+    <msda-button type="submit" bgColor="#f44336" [disabled]="false" (click)=submit($event) [showLoading]="false">
       <msda-icon name="recycle_bin" width="20" height="20" color="#FFFFFF"></msda-icon>
-      <span>წაშლა</span>
+<!--      <span>წაშლა</span>-->
     </msda-button>
 
-    <msda-button type="submit" color="#f44336" [disabled]="true" (click)=submit($event) [showLoading]="false">
+    <msda-button type="submit" bgColor="#f44336" [disabled]="true" (click)=submit($event) [showLoading]="false">
       <msda-icon name="send" width="20" height="20" color="#FFFFFF"></msda-icon>
       <span>Disabled</span>
     </msda-button>
+
+    <msda-button type="submit" bgColor="#f44336" (click)=submit($event)>
+      <msda-icon name="send" width="20" height="20" color="#FFFFFF"></msda-icon>
+      <span>დასახელება</span>
+    </msda-button>
+
+    <msda-button type="submit" bgColor="#212121" color="red" (click)=submit($event)>
+      <msda-icon name="send" width="20" height="20" color="#FFFFFF"></msda-icon>
+      <span>დასახელება</span>
+    </msda-button>
+
+    <msda-button type="submit" bgColor="#3f51b5" [disabled]="false" (click)=submit($event) [testRound]="true">
+      <msda-icon name="save" width="20" height="20" color="#FFFFFF"></msda-icon>
+      <span>შენახვა</span>
+    </msda-button>
+
   </div>
 
   <markdown [src]="'/assets/examples/msda-button/example-1.md'" (error)="onError($event)"

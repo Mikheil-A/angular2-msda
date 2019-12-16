@@ -7,8 +7,10 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
     @Input() type = 'button';
-    @Input() color: string;
+    @Input() bgColor: string;
+    @Input() color: string = 'white';
     @Input() disabled = false;
+    @Input() testRound: boolean = false;
     @Input() public showLoading: Boolean;
 
 

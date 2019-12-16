@@ -71,7 +71,7 @@ const routes: Routes = [
     component: MsdaModuleCardComponent
   },
   {
-    path: 'component/others/msda-horizontal-divider',
+    path: 'component/layout/msda-horizontal-divider',
     component: MsdaHorizontalDividerComponent
   }
 ];
