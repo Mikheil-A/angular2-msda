@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5874cdb5-0bc2-4867-b73a-fe7ee8243227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/msda-dark-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/msda-default-theme-colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/msda-default-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/msda-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/msda-typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/assets/msda-custom-theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/assets/teststyle.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/plate-icon/plate-icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/plate-icon/plate-icon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
@@ -114,7 +103,8 @@
       <workItem from="1576061922970" duration="8804000" />
       <workItem from="1576070937532" duration="5606000" />
       <workItem from="1576136479025" duration="13222000" />
-      <workItem from="1576238162847" duration="5619000" />
+      <workItem from="1576238162847" duration="6158000" />
+      <workItem from="1576489477394" duration="677000" />
     </task>
     <servers />
   </component>
