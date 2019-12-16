@@ -17,7 +17,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular2-msda-test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,7 +103,7 @@
       <workItem from="1576070937532" duration="5606000" />
       <workItem from="1576136479025" duration="13222000" />
       <workItem from="1576238162847" duration="6158000" />
-      <workItem from="1576489477394" duration="2229000" />
+      <workItem from="1576489477394" duration="2600000" />
     </task>
     <servers />
   </component>
