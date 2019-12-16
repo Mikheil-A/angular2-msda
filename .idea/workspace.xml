@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5874cdb5-0bc2-4867-b73a-fe7ee8243227" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/plate-icon/plate-icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/plate-icon/plate-icon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,17 +103,12 @@
       <workItem from="1576070937532" duration="5606000" />
       <workItem from="1576136479025" duration="13222000" />
       <workItem from="1576238162847" duration="6158000" />
-      <workItem from="1576489477394" duration="677000" />
+      <workItem from="1576489477394" duration="2229000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="additionalRoots">
-      <list>
-        <option value="$PROJECT_DIR$/dist/angular-msda" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
