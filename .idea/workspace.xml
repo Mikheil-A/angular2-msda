@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5874cdb5-0bc2-4867-b73a-fe7ee8243227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/core/style/global-styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/global-varoables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/horizontal-divider/horizontal-divider.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/horizontal-divider/horizontal-divider.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/horizontal-divider/horizontal-divider.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/core/style/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/core/style/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-button/msda-button.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-button/msda-button.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-icon/msda-icon.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-icon/msda-icon.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-icon/msda-icon.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-icon/msda-icon.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-paginator/msda-paginator.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-paginator/msda-paginator.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/msda-theme/msda-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/msda-theme/msda-theme.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +23,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/angular-msda/src/lib/horizontal-divider" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +45,7 @@
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\horizontal-divider" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\form-field" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src" />
     </key>
@@ -121,7 +112,7 @@
       <workItem from="1576070937532" duration="5606000" />
       <workItem from="1576136479025" duration="13222000" />
       <workItem from="1576238162847" duration="6158000" />
-      <workItem from="1576489477394" duration="11554000" />
+      <workItem from="1576489477394" duration="13168000" />
     </task>
     <servers />
   </component>

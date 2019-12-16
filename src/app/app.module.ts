@@ -31,6 +31,7 @@ import { MsdaToastComponent } from './components/msda-toast/msda-toast.component
 import { MsdaModuleCardComponent } from './components/msda-module-card/msda-module-card.component';
 import { MsdaIconLabelComponent } from './components/msda-icon-label/msda-icon-label.component';
 import { MsdaFormFieldComponent } from './components/msda-form-field/msda-form-field.component';
+import { MsdaHorizontalDividerComponent } from './components/msda-horizontal-divider/msda-horizontal-divider.component';
 
 @NgModule({
     declarations: [
@@ -53,7 +54,8 @@ import { MsdaFormFieldComponent } from './components/msda-form-field/msda-form-f
         MsdaToastComponent,
         MsdaModuleCardComponent,
         MsdaIconLabelComponent,
-        MsdaFormFieldComponent
+        MsdaFormFieldComponent,
+        MsdaHorizontalDividerComponent
     ],
     imports: [
         FlexLayoutModule,

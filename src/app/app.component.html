@@ -140,6 +140,21 @@
       </mat-expansion-panel>
     </mat-accordion>
 
+    <mat-divider></mat-divider>
+
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b> Others </b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <ul>
+          <li (click)="changePage('others/msda-horizontal-divider')">msda-horizontal-divider</li>
+        </ul>
+      </mat-expansion-panel>
+    </mat-accordion>
+
   </mat-sidenav>
   <mat-sidenav-content>
     <router-outlet></router-outlet>

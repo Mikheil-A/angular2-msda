@@ -14,6 +14,7 @@ import {MsdaToastComponent} from './components/msda-toast/msda-toast.component';
 import {MsdaModuleCardComponent} from './components/msda-module-card/msda-module-card.component';
 import {MsdaIconLabelComponent} from './components/msda-icon-label/msda-icon-label.component';
 import {MsdaFormFieldComponent} from './components/msda-form-field/msda-form-field.component';
+import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divider/msda-horizontal-divider.component';
 
 
 const routes: Routes = [
@@ -68,6 +69,10 @@ const routes: Routes = [
   {
     path: 'component/cards/msda-module-card',
     component: MsdaModuleCardComponent
+  },
+  {
+    path: 'component/others/msda-horizontal-divider',
+    component: MsdaHorizontalDividerComponent
   }
 ];
 

@@ -19,6 +19,7 @@ import {MSDAToastService} from './toast/toast.service';
 import {ModuleCardComponent} from './module-card/module-card.component';
 import {IconLabelComponent} from './icon-label/icon-label.component';
 import {FormFieldComponent} from './form-field/form-field.component';
+import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divider.component';
 
 
 
@@ -36,7 +37,8 @@ import {FormFieldComponent} from './form-field/form-field.component';
     ButtonComponent,
     ModuleCardComponent,
     IconLabelComponent,
-    FormFieldComponent
+    FormFieldComponent,
+    HorizontalDividerComponent
   ],
   imports: [
     CommonModule,
@@ -57,7 +59,8 @@ import {FormFieldComponent} from './form-field/form-field.component';
     ButtonComponent,
     ModuleCardComponent,
     IconLabelComponent,
-    FormFieldComponent
+    FormFieldComponent,
+    HorizontalDividerComponent
   ],
   entryComponents: [
     MSDAToast
