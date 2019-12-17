@@ -1,54 +1,55 @@
 .header {
-    margin: 0;
-    padding: 28px;
-    background: #3f51b5;
-    color: #fff;
-    font-weight: 300;
-    font-size: 20px;
-    font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	margin: 0;
+	padding: 28px;
+	background: #3f51b5;
+	color: #fff;
+	font-weight: 300;
+	font-size: 20px;
+	font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .example-container {
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.49);
-    font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.49);
+	font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 mat-sidenav {
-    width: 350px;
-    background: rgba(0,0,0,.03);
+	width: 350px;
+	background: rgba(0, 0, 0, .03);
 }
 
 mat-accordion {
-    color: rgba(0, 0, 0, 0.53);
+	color: rgba(0, 0, 0, 0.53);
 }
 
 mat-divider {
-    color: #b7b7b7;
+	color: #b7b7b7;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0 0 5px;
-    padding: 0;
-    overflow: hidden;
+	list-style-type: none;
+	margin: 0 0 5px;
+	padding: 0;
+	overflow: hidden;
 }
 
 li {
-    margin: 10px;
-    cursor: pointer;
-    display: list-item;
-    text-align: -webkit-match-parent;
+	margin: 10px;
+	cursor: pointer;
+
+	&.activeLink {
+		color: #3f51b5;
+	}
 }
 
-
 .square {
-    background: #EA854D;
-    width: 48px;
-    height: 48px;
-    border-radius: 12px;
+	background: #EA854D;
+	width: 48px;
+	height: 48px;
+	border-radius: 12px;
 }
 
 .test {
-    filter: drop-shadow(-5px -5px 5px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(-5px -5px 5px rgba(0, 0, 0, 0.5));
 }
