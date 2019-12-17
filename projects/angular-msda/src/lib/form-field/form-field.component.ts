@@ -1,4 +1,5 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output} from '@angular/core';
+import {FormGroup} from '@angular/forms';
 
 
 
@@ -7,10 +8,13 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
   templateUrl: './form-field.component.html',
   styleUrls: ['./form-field.component.scss']
 })
-export class FormFieldComponent implements OnInit {
+export class FormFieldComponent implements OnInit, OnChanges {
   @Input() placeholder: string;
   @Input() value: string;
+  @Input() isRequired: boolean = false;
   @Input() hint: string;
+  @Input() fcName: string = null;
+  @Input() fGroup: FormGroup = null;
 
   // @Input() type = 'button';
   // @Input() color: string;
@@ -26,6 +30,9 @@ export class FormFieldComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  ngOnChanges(): void {
   }
 
 

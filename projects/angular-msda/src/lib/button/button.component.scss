@@ -27,6 +27,7 @@
 
 	&:disabled {
 		background-color: rgba(33, 33, 33, 0.32) !important;
+		box-shadow: none;
 
 		&:hover {
 			opacity: 1;

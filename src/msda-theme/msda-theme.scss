@@ -4,7 +4,6 @@
 @import '~@angular/material/theming';
 
 @import "msda-default-theme";
-@import "msda-dark-theme";
 /*@import "msda-light-theme";*/
 
 @import "msda-typography";
@@ -14,10 +13,6 @@
 
 
 @include angular-material-theme($msda-default-theme);
-
-.msda-dark-theme {
-  @include angular-material-theme($msda-dark-theme);
-}
 
 
 /**

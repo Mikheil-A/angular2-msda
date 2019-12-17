@@ -1,8 +1,23 @@
-<msda-form-field placeholder="ჩაწერეთ სახელი"
-                 value="Miha"
-                 hint="your name"
-                 (input)="onInputChange($event)"
-                 suffixIcon="smile"
-                 prefixIcon="user"></msda-form-field>
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
 
-<msda-form-field placeholder="ჩაწერეთ გვარი"></msda-form-field>
+  <msda-form-field placeholder="ჩაწერეთ სახელი"
+                   value="Miha"
+                   hint="your name"
+                   suffixIcon="smile"
+                   prefixIcon="user"
+                   fcName="firstName"
+                   [fGroup]="formGroup"></msda-form-field>
+
+  <msda-form-field placeholder="ჩაწერეთ სახელი"
+                   hint="your last name"
+                   suffixIcon="smile"
+                   prefixIcon="user"
+                   fcName="lastName"
+                   [fGroup]="formGroup"></msda-form-field>
+
+  <msda-button type="submit" bgColor="#f44336">
+    <msda-icon name="send" width="20" height="20" color="#FFFFFF"></msda-icon>
+    <span>Submit</span>
+  </msda-button>
+
+</form>

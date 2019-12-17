@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 // Angular Material module
 import {MatModule} from './mat.module';
@@ -45,6 +45,7 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
 
     MatModule
   ],

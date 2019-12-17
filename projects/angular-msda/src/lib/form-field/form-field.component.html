@@ -1,21 +1,26 @@
-<mat-form-field appearance="outline">
-  <mat-label>{{placeholder}}</mat-label>
+<div [formGroup]="fGroup" class="msda-form-field">
 
-  <msda-icon *ngIf="prefixIcon" matPrefix
-             [name]="prefixIcon"
-             width="22"
-             height="22"
-             color="#E3515A">
-  </msda-icon>
+  <mat-form-field appearance="outline">
+    <mat-label>{{placeholder}}</mat-label>
 
-  <input matInput [placeholder]="placeholder" [value]="value ? value: ''" (input)="onInput($event)">
+    <msda-icon *ngIf="prefixIcon" matPrefix
+               [name]="prefixIcon"
+               width="22"
+               height="22"
+               color="#E3515A">
+    </msda-icon>
 
-  <msda-icon *ngIf="suffixIcon" matSuffix
-             [name]="suffixIcon"
-             width="22"
-             height="22"
-             color="#E3515A">
-  </msda-icon>
+    <input matInput [placeholder]="placeholder" [formControlName]="fcName" [value]="value ? value: ''"
+           (input)="onInput($event)" [required]="isRequired">
 
-  <mat-hint *ngIf="hint">{{hint}}</mat-hint>
-</mat-form-field>
+    <msda-icon *ngIf="suffixIcon" matSuffix
+               [name]="suffixIcon"
+               width="22"
+               height="22"
+               color="#E3515A">
+    </msda-icon>
+
+    <mat-hint *ngIf="hint">{{hint}}</mat-hint>
+  </mat-form-field>
+
+</div>
