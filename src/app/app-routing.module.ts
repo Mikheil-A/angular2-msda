@@ -15,6 +15,7 @@ import {MsdaModuleCardComponent} from './components/msda-module-card/msda-module
 import {MsdaIconLabelComponent} from './components/msda-icon-label/msda-icon-label.component';
 import {MsdaFormFieldComponent} from './components/msda-form-field/msda-form-field.component';
 import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divider/msda-horizontal-divider.component';
+import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-button-round.component';
 
 
 const routes: Routes = [
@@ -61,6 +62,10 @@ const routes: Routes = [
   {
     path: 'component/buttons/msda-button',
     component: MsdaButtonComponent
+  },
+  {
+    path: 'component/buttons/msda-button-round',
+    component: MsdaButtonRoundComponent
   },
   {
     path: 'component/toast/msda-toast',

@@ -10,7 +10,6 @@ export class ButtonComponent implements OnInit {
     @Input() bgColor: string;
     @Input() color: string = 'white';
     @Input() disabled = false;
-    @Input() testRound: boolean = false;
     @Input() public showLoading: Boolean;
 
 

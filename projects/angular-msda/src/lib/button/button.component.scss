@@ -3,7 +3,6 @@
 	border-radius: 4px;
 	padding: 10px 16px;
 
-
 	&:hover {
 		opacity: 0.84;
 	}
@@ -15,7 +14,6 @@
 	}
 
 	.text {
-
 		::ng-deep span {
 			padding-left: 8px !important;
 			font-family: BPG DejaVu Sans Caps Web;
@@ -34,17 +32,6 @@
 			opacity: 1;
 		}
 	}
-}
-
-.msda-button-round {
-	border-radius: 100%;
-}
-
-.content {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
 }
 
 /*Loading mask*/

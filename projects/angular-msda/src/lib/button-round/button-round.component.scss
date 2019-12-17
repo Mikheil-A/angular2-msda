@@ -1,0 +1,14 @@
+.msda-button-round {
+
+	&:hover {
+		opacity: 0.84;
+	}
+
+	&:disabled {
+		background-color: rgba(33, 33, 33, 0.32) !important;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}

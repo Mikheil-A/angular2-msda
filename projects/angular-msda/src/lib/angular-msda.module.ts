@@ -14,6 +14,7 @@ import {MSDABannerButton} from './banner-button/banner-button';
 import {MSDAPaginator} from './paginator/paginator';
 import {MSDAMenuButton} from './menu-button/menu-button';
 import {ButtonComponent} from './button/button.component';
+import {ButtonRoundComponent} from './button-round/button-round.component';
 import {MSDAToast} from './toast/toast';
 import {MSDAToastService} from './toast/toast.service';
 import {ModuleCardComponent} from './module-card/module-card.component';
@@ -35,6 +36,7 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
     MSDAMenuButton,
     MSDAToast,
     ButtonComponent,
+    ButtonRoundComponent,
     ModuleCardComponent,
     IconLabelComponent,
     FormFieldComponent,
@@ -57,6 +59,7 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
     MSDAMenuButton,
     MSDAToast,
     ButtonComponent,
+    ButtonRoundComponent,
     ModuleCardComponent,
     IconLabelComponent,
     FormFieldComponent,

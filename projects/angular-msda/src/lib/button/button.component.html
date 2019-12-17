@@ -1,13 +1,10 @@
-<button *ngIf="!testRound"
-        class="msda-button"
+<button class="msda-button"
         [type]="type"
         [style.backgroundColor]="bgColor"
         [disabled]="disabled"
         (click)="onClick($event)"
         mat-button>
   <!--  <span class="loader" *ngIf="showLoading"></span>-->
-
-  <span class="content">
 
   <span class="icon">
       <ng-content select="msda-icon"></ng-content>
@@ -16,54 +13,5 @@
   <span class="text" [style.color]="color">
       <ng-content select="span"></ng-content>
     </span>
-  </span>
 
 </button>
-
-
-<!--<button mat-fab>Basic</button>-->
-
-
-<button *ngIf="testRound"
-        [type]="type"
-        [style.backgroundColor]="bgColor"
-        [disabled]="disabled"
-        (click)="onClick($event)"
-        mat-fab>
-  <!--  <span class="loader" *ngIf="showLoading"></span>-->
-
-  <div class="content">
-  <span class="icon">
-      <ng-content select="msda-icon"></ng-content>
-    </span>
-  </div>
-
-  <!--  <span class="text" [style.color]="color">-->
-  <!--      <ng-content select="span"></ng-content>-->
-  <!--    </span>-->
-
-</button>
-
-
-
-<!--<button *ngIf="round"-->
-<!--        class="msda-button msda-button-round"-->
-<!--        [type]="type"-->
-<!--        [style.backgroundColor]="bgColor"-->
-<!--        [disabled]="disabled"-->
-<!--        (click)="onClick($event)"-->
-<!--        mat-button>-->
-
-<!--  <span class="icon">-->
-<!--    <ng-content select="msda-icon"></ng-content>-->
-<!--  </span>-->
-
-<!--  <span class="text" [style.color]="color">-->
-<!--      <ng-content select="span"></ng-content>-->
-<!--    </span>-->
-
-<!--&lt;!&ndash;      <ng-content select="msda-icon"></ng-content>&ndash;&gt;-->
-
-
-<!--</button>-->
-
