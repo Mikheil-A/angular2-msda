@@ -1,35 +1,35 @@
-@font-face {
-    font-family: 'BPG DejaVu Sans Caps Web';
-    src: url('BPGDejaVuSansCapsWeb.eot');
-    src: url('BPGDejaVuSansCapsWeb.eot?#iefix') format('embedded-opentype'),
-        url('BPGDejaVuSansCapsWeb.woff2') format('woff2'),
-        url('BPGDejaVuSansCapsWeb.woff') format('woff'),
-        url('BPGDejaVuSansCapsWeb.ttf') format('truetype'),
-        url('BPGDejaVuSansCapsWeb.svg#BPGDejaVuSansCapsWeb') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+/*@font-face {*/
+/*    font-family: 'BPG DejaVu Sans Caps Web';*/
+/*    src: url('BPGDejaVuSansCapsWeb.eot');*/
+/*    src: url('BPGDejaVuSansCapsWeb.eot?#iefix') format('embedded-opentype'),*/
+/*        url('BPGDejaVuSansCapsWeb.woff2') format('woff2'),*/
+/*        url('BPGDejaVuSansCapsWeb.woff') format('woff'),*/
+/*        url('BPGDejaVuSansCapsWeb.ttf') format('truetype'),*/
+/*        url('BPGDejaVuSansCapsWeb.svg#BPGDejaVuSansCapsWeb') format('svg');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
 
-@font-face {
-    font-family: 'BPG DejaVu Sans';
-    src: url('BPGDejaVuSans.eot');
-    src: url('BPGDejaVuSans.eot?#iefix') format('embedded-opentype'),
-        url('BPGDejaVuSans.woff2') format('woff2'),
-        url('BPGDejaVuSans.woff') format('woff'),
-        url('BPGDejaVuSans.ttf') format('truetype'),
-        url('BPGDejaVuSans.svg#BPGDejaVuSans') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+/*@font-face {*/
+/*    font-family: 'BPG DejaVu Sans';*/
+/*    src: url('BPGDejaVuSans.eot');*/
+/*    src: url('BPGDejaVuSans.eot?#iefix') format('embedded-opentype'),*/
+/*        url('BPGDejaVuSans.woff2') format('woff2'),*/
+/*        url('BPGDejaVuSans.woff') format('woff'),*/
+/*        url('BPGDejaVuSans.ttf') format('truetype'),*/
+/*        url('BPGDejaVuSans.svg#BPGDejaVuSans') format('svg');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
 
-@font-face {
-    font-family: 'BPG DejaVu Sans';
-    src: url('BPGDejaVuSans-Bold.eot');
-    src: url('BPGDejaVuSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('BPGDejaVuSans-Bold.woff2') format('woff2'),
-        url('BPGDejaVuSans-Bold.woff') format('woff'),
-        url('BPGDejaVuSans-Bold.ttf') format('truetype'),
-        url('BPGDejaVuSans-Bold.svg#BPGDejaVuSans-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
+/*@font-face {*/
+/*    font-family: 'BPG DejaVu Sans';*/
+/*    src: url('BPGDejaVuSans-Bold.eot');*/
+/*    src: url('BPGDejaVuSans-Bold.eot?#iefix') format('embedded-opentype'),*/
+/*        url('BPGDejaVuSans-Bold.woff2') format('woff2'),*/
+/*        url('BPGDejaVuSans-Bold.woff') format('woff'),*/
+/*        url('BPGDejaVuSans-Bold.ttf') format('truetype'),*/
+/*        url('BPGDejaVuSans-Bold.svg#BPGDejaVuSans-Bold') format('svg');*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*}*/

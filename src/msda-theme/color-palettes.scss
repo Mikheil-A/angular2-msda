@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@import "colors";
+
+$msda-color-primary: mat-palette($mat-blue);
+/*$msda-color-primary: mat-palette($msda-primary-color);*/
+
+$msda-color-accent: mat-palette($mat-green);
+/*$msda-color-accent: mat-palette($msda-accent-color);*/
+
+$msda-color-warn: mat-palette($mat-red);
+/*$msda-color-warn: mat-palette($msda-red);*/
+/*$msda-color-warn: mat-palette($msda-warn-color);*/
+
+$msda-default-theme: mat-light-theme($msda-color-primary, $msda-color-accent, $msda-color-warn);

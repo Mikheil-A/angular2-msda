@@ -1,27 +1,19 @@
-//@import "projects/angular-msda/src/lib/core/style/global-styles";
-//@import "global-varoables";
+@import "global-varoables";
+@import "globa-styles";
 
 @import '~@angular/material/theming';
 
-@import "msda-default-theme";
-/*@import "msda-light-theme";*/
-
-@import "msda-typography";
+@import "color-palettes";
+@import "typography";
 
 
 @include mat-core();
 
 
-@include angular-material-theme($msda-default-theme);
-
-
 /**
- * 'panelClass' for styling overlay components
+ * Color palettes
  */
-.my-test-no-padding-dialog .mat-dialog-container {
-  background-color: red;
-  padding: 0;
-}
+@include angular-material-theme($msda-default-theme);
 
 
 /**
@@ -29,11 +21,11 @@
  */
 @include angular-material-typography($msda-typography);
 
+
+/**
+ * Specific components configuration
+ */
 /*@include mat-button-typography($msda-typography2);
 @include mat-base-typography($msda-typography);
 @include mat-checkbox-typography($msda-typography);
 @include mat-chips-typography($msda-typography);*/
-
-.msda-typegraphy-2 {
-  @include angular-material-typography($msda-typography2);
-}
