@@ -1,3 +1,35 @@
 .msda-form-field {
 	display: inline-block;
+
+
+	::ng-deep {
+		.mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick,
+		.mat-form-field.mat-form-field-invalid.mat-focused .mat-form-field-label,
+		.mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-hint {
+			color: #EA3D2F;
+		}
+
+		.mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-input-element {
+			caret-color: #EA3D2F;
+		}
+
+		.mat-form-field-appearance-outline.mat-focused {
+			&.mat-form-field-invalid .mat-form-field-outline-thick,
+			& .mat-form-field-outline-thick {
+				color: #212121;
+			}
+		}
+
+		.mat-input-element {
+			caret-color: rgba(33, 33, 33, 0.56);
+		}
+
+		.mat-form-field.mat-focused .mat-form-field-label {
+			color: rgba(33, 33, 33, 0.56);
+		}
+
+		.mat-input-element {
+			color: #333333;
+		}
+	}
 }

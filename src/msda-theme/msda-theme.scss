@@ -23,9 +23,12 @@
 
 
 /**
- * Specific components configuration
+ * Theme styles for only specified components
  */
 /*@include mat-button-typography($msda-typography2);
 @include mat-base-typography($msda-typography);
 @include mat-checkbox-typography($msda-typography);
 @include mat-chips-typography($msda-typography);*/
+/*@include mat-core-theme($candy-app-theme);
+@include mat-button-theme($candy-app-theme);
+@include mat-checkbox-theme($candy-app-theme);*/

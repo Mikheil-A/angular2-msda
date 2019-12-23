@@ -1,34 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5874cdb5-0bc2-4867-b73a-fe7ee8243227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/globa-styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/msda-theme/typography.scss" afterDir="false" />
+    <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/button/button.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/button/button.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSans.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSansCapsWeb.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSansCapsWeb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSansCapsWeb.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSansCapsWeb.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/BPGDejaVuSansCapsWeb.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Montserrat_Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/bpg_dejavu_sans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/msda-theme/msda-default-theme-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/msda-theme/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/msda-theme/msda-default-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/msda-theme/color-palettes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/msda-form-field/msda-form-field.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-form-field/msda-form-field.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/msda-theme/msda-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/msda-theme/msda-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/msda-theme/msda-typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,11 +118,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="additionalRoots">
-      <list>
-        <option value="$PROJECT_DIR$/dist/angular-msda" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
