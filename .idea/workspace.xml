@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/button/button.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/button/button.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-button/msda-button.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-button/msda-button.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +19,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lawyers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,7 +100,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5874cdb5-0bc2-4867-b73a-fe7ee8243227" name="Default Changelist" comment="" />
+      <changelist id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="" />
       <created>1576061921248</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -111,6 +112,7 @@
       <workItem from="1576489477394" duration="21172000" />
       <workItem from="1576575055138" duration="11458000" />
       <workItem from="1577088041472" duration="8054000" />
+      <workItem from="1577177130966" duration="1525000" />
     </task>
     <servers />
   </component>

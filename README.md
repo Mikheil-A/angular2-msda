@@ -1,8 +1,9 @@
-# Angular2Msda
+# angular-msda
 >MSDA Custom Components Library
 
-* See [Demo](https://mikheil-a.github.io/angular2-msda/)
+* See [Demo](https://mikheil-a.github.io/angular2-msda)
 * [NPM](https://www.npmjs.com/package/angular-msda)
+* Source code on [GitHub](https://github.com/Mikheil-A/angular2-msda)
 
 ## Getting started
 
