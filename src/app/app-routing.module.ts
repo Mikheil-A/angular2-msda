@@ -11,6 +11,7 @@ import {MsdaMenuButtonComponent} from './components/msda-menu-button/msda-menu-b
 import {MsdaDialogComponent} from './components/msda-dialog/msda-dialog.component';
 import {MsdaButtonComponent} from './components/msda-button/msda-button.component';
 import {MsdaToastComponent} from './components/msda-toast/msda-toast.component';
+import {MsdaSnackbarComponent} from './components/msda-snackbar/msda-snackbar.component';
 import {MsdaModuleCardComponent} from './components/msda-module-card/msda-module-card.component';
 import {MsdaIconLabelComponent} from './components/msda-icon-label/msda-icon-label.component';
 import {MsdaFormFieldComponent} from './components/msda-form-field/msda-form-field.component';
@@ -68,8 +69,12 @@ const routes: Routes = [
     component: MsdaButtonRoundComponent
   },
   {
-    path: 'component/toast/msda-toast',
+    path: 'component/popups-and-modals/msda-toast',
     component: MsdaToastComponent
+  },
+  {
+    path: 'component/popups-and-modals/msda-snackbar',
+    component: MsdaSnackbarComponent
   },
   {
     path: 'component/cards/msda-module-card',

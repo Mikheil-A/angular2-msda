@@ -33,10 +33,11 @@ import {MsdaIconLabelComponent} from './components/msda-icon-label/msda-icon-lab
 import {MsdaFormFieldComponent} from './components/msda-form-field/msda-form-field.component';
 import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divider/msda-horizontal-divider.component';
 import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-button-round.component';
+import {MsdaSnackbarComponent} from './components/msda-snackbar/msda-snackbar.component';
 
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatButtonModule} from '@angular/material/button';
-
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -62,7 +63,8 @@ import {MatButtonModule} from '@angular/material/button';
     MsdaIconLabelComponent,
     MsdaFormFieldComponent,
     MsdaHorizontalDividerComponent,
-    MsdaButtonRoundComponent
+    MsdaButtonRoundComponent,
+    MsdaSnackbarComponent
   ],
   imports: [
     FlexLayoutModule,
@@ -82,7 +84,8 @@ import {MatButtonModule} from '@angular/material/button';
     ReactiveFormsModule,
 
     MatProgressBarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   entryComponents: [
     DialogComponent

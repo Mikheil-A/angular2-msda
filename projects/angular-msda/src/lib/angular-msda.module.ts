@@ -14,13 +14,17 @@ import {MSDABannerButton} from './banner-button/banner-button';
 import {MSDAPaginator} from './paginator/paginator';
 import {MSDAMenuButton} from './menu-button/menu-button';
 import {ButtonComponent} from './button/button.component';
+import {SnackbarComponent} from './snackbar/snackbar.component';
 import {ButtonRoundComponent} from './button-round/button-round.component';
 import {MSDAToast} from './toast/toast';
-import {MSDAToastService} from './toast/toast.service';
 import {ModuleCardComponent} from './module-card/module-card.component';
 import {IconLabelComponent} from './icon-label/icon-label.component';
 import {FormFieldComponent} from './form-field/form-field.component';
 import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divider.component';
+
+// services
+import {MSDAToastService} from './toast/toast.service';
+import {MsdaSnackBarService} from './snackbar/snackbar.service';
 
 
 
@@ -36,6 +40,7 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
     MSDAMenuButton,
     MSDAToast,
     ButtonComponent,
+    SnackbarComponent,
     ButtonRoundComponent,
     ModuleCardComponent,
     IconLabelComponent,
@@ -60,6 +65,7 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
     MSDAMenuButton,
     MSDAToast,
     ButtonComponent,
+    SnackbarComponent,
     ButtonRoundComponent,
     ModuleCardComponent,
     IconLabelComponent,
@@ -67,10 +73,12 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
     HorizontalDividerComponent
   ],
   entryComponents: [
-    MSDAToast
+    MSDAToast,
+    SnackbarComponent
   ],
   providers: [
-    MSDAToastService
+    MSDAToastService,
+    MsdaSnackBarService
   ]
 })
 export class AngularMsdaModule {

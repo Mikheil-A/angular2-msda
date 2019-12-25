@@ -45,27 +45,27 @@ $color-doc-management: #EC8C19;
  */
 
 .msda-elevation-z2 {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .msda-elevation-z4 {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .msda-elevation-z4-underline {
-    box-shadow: 0 1px $color-border, 0 4px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px $color-border, 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .msda-border-top {
-    box-shadow: 0 -1px $color-border;
+	box-shadow: 0 -1px $color-border;
 }
 
 .msda-border-bottom {
-    box-shadow: 0 1px $color-border;
+	box-shadow: 0 1px $color-border;
 }
 
 .msda-sidebar-element-hover {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 /**
@@ -75,35 +75,35 @@ $color-doc-management: #EC8C19;
 .msda-body-1-bold,
 .msda-body-2,
 .msda-body-2-bold {
-    color: $color-font-primary;
-    font-family: 'BPG DejaVu Sans';
-    letter-spacing: 0.1em;
+	color: $color-font-primary;
+	font-family: 'BPG DejaVu Sans';
+	letter-spacing: 0.1em;
 
-    a {
-        color: $color-link;
+	a {
+		color: $color-link;
 
-        &:hover,
-        &:focus {
-            color: $color-link-hover;
-        }
-    }
+		&:hover,
+		&:focus {
+			color: $color-link-hover;
+		}
+	}
 }
 
 .msda-body-1,
 .msda-body-1-bold {
-    font-size: 13px;
-    line-height: 21px;
+	font-size: 13px;
+	line-height: 21px;
 }
 
 .msda-body-2,
 .msda-body-2-bold {
-    font-size: 11px;
-    line-height: 20px;
+	font-size: 11px;
+	line-height: 20px;
 }
 
 .msda-body-1-bold,
 .msda-body-2-bold {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 /**
@@ -112,39 +112,44 @@ $color-doc-management: #EC8C19;
 .msda-display-1,
 .msda-display-2,
 .msda-display-3 {
-    color: #333;
+	color: #333;
 }
 
 .msda-display-1 {
-    font-size: 15px;
-    font-family: 'BPG DejaVu Sans';
+	font-size: 15px;
+	font-family: 'BPG DejaVu Sans';
 
-    font-weight: 700;
-    line-height: 26px;
+	font-weight: 700;
+	line-height: 26px;
 
-    a {
-        color: $color-link;
+	a {
+		color: $color-link;
 
-        &:hover,
-        &:focus {
-            color: $color-link-hover;
-        }
-    }
+		&:hover,
+		&:focus {
+			color: $color-link-hover;
+		}
+	}
 }
 
 .msda-display-2,
 .msda-display-3 {
-    font-family: 'BPG DejaVu Sans Caps Web';
-    text-transform: uppercase;
+	font-family: 'BPG DejaVu Sans Caps Web';
+	text-transform: uppercase;
 }
 
 .msda-display-2 {
-    font-size: 13px;
+	font-size: 13px;
 }
 
 .msda-display-3 {
-    font-size: 11px;
-    letter-spacing: 0.1em;
+	font-size: 11px;
+	letter-spacing: 0.1em;
+}
+
+.msda-link {
+	color: #a3bfe5;
+	cursor: pointer;
 }
 
 @import 'msda-dialog-component';

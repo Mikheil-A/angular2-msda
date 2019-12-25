@@ -1,38 +1,53 @@
-import { Component, OnInit } from '@angular/core';
-import { MSDAToastConfig, MSDAToastService } from '../../../../projects/angular-msda/src/lib/toast/toast.service';
+import {Component, Inject, OnInit} from '@angular/core';
+import {MSDAToastConfig, MSDAToastService} from '../../../../projects/angular-msda/src/lib/toast/toast.service';
+import {MAT_SNACK_BAR_DATA, MatSnackBar} from '@angular/material/snack-bar';
+
 
 @Component({
-    selector: 'app-msda-toast',
-    templateUrl: './msda-toast.component.html',
-    styleUrls: ['./msda-toast.component.scss']
+  selector: 'app-msda-toast',
+  templateUrl: './msda-toast.component.html',
+  styleUrls: ['./msda-toast.component.scss']
 })
 export class MsdaToastComponent implements OnInit {
 
-    constructor(private msdaToastService: MSDAToastService) {
-        const config: MSDAToastConfig = {
-            onClose: () => {
-                console.log('Toast Closed');
-            },
-            linkClick: (e: Event) => {
-                console.log(e);
-            },
-            closeAfter: 5000
-        };
+  config: MSDAToastConfig = {
+    onClose: () => {
+      console.log('Toast Closed');
+    },
+    linkClick: (e: Event) => {
+      console.log(e);
+    },
+    closeAfter: 5000
+  };
 
-        setTimeout(() => {
-            this.msdaToastService.showHtml('<p>გაცნობებთ რომ მოფრინავს მეტეორი, სადარბაზოებში <span class="msda-link">ჩილიმის მოწევა</span> დაშვებულია</p>', config);
-        }, 2000);
-    }
+  // constructor(private msdaToastService: MSDAToastService,
+  //             @Inject(MAT_SNACK_BAR_DATA) public data: any,
+  //             private _matSnackBar: MatSnackBar) {
+  // }
 
-    ngOnInit() {
-    }
+  constructor(private msdaToastService: MSDAToastService) {
+  }
 
-    onError(event) {
-        console.log(event);
-    }
+  ngOnInit() {
+  }
 
-    onLoad(event) {
-        console.log(event);
-    }
+  onError(event) {
+    console.log(event);
+  }
 
+  onLoad(event) {
+    console.log(event);
+  }
+
+
+  showSnackbar() {
+    setTimeout(() => {
+      this.msdaToastService.showHtml('<p>გაცნობებთ რომ მოფრინავს მეტეორი, სადარბაზოებში <span class="msda-link">ჩილიმის მოწევა</span> დაშვებულია</p>', this.config);
+    }, 2000);
+
+
+      // this._matSnackBar.open('<p>გაცნობებთ რომ მოფრინავს მეტეორი, სადარბაზოებში <span class="msda-link">ჩილიმის მოწევა</span> დაშვებულია</p>', {
+      //   duration: 2000
+      // });
+  }
 }
