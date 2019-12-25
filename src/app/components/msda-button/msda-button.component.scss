@@ -1,0 +1,30 @@
+
+
+// todo these are test styles, remove later
+.mat-button {
+	padding: 0;
+
+	.progress-button-content {
+		.text {
+			color: white;
+		}
+
+		.mat-progress-bar {
+			height: 40px;
+			cursor: pointer;
+			position: absolute;
+			margin-top: -36px;
+			z-index: -1;
+		}
+	}
+
+	::ng-deep {
+		.mat-progress-bar-fill::after {
+			background-color: #212121;
+		}
+
+		.mat-progress-bar-buffer {
+			background-color: rgba(33, 33, 33, 0.32);
+		}
+	}
+}

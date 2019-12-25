@@ -34,6 +34,11 @@ import {MsdaFormFieldComponent} from './components/msda-form-field/msda-form-fie
 import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divider/msda-horizontal-divider.component';
 import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-button-round.component';
 
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatButtonModule} from '@angular/material/button';
+
+
+
 @NgModule({
   declarations: [
     FilterPipe,
@@ -74,7 +79,10 @@ import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-butt
     MarkdownModule.forRoot({loader: HttpClient}),
     BrowserAnimationsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+
+    MatProgressBarModule,
+    MatButtonModule
   ],
   entryComponents: [
     DialogComponent
