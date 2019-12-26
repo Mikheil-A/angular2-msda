@@ -14,6 +14,7 @@ import {MSDABannerButton} from './banner-button/banner-button';
 import {MSDAPaginator} from './paginator/paginator';
 import {MSDAMenuButton} from './menu-button/menu-button';
 import {ButtonComponent} from './button/button.component';
+import {SelectComponent} from './select/select.component';
 import {SnackbarComponent} from './snackbar/snackbar.component';
 import {ButtonRoundComponent} from './button-round/button-round.component';
 import {MSDAToast} from './toast/toast';
@@ -40,6 +41,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     MSDAMenuButton,
     MSDAToast,
     ButtonComponent,
+    SelectComponent,
     SnackbarComponent,
     ButtonRoundComponent,
     ModuleCardComponent,
@@ -65,6 +67,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     MSDAMenuButton,
     MSDAToast,
     ButtonComponent,
+    SelectComponent,
     SnackbarComponent,
     ButtonRoundComponent,
     ModuleCardComponent,

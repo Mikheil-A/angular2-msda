@@ -34,6 +34,7 @@ import {MsdaFormFieldComponent} from './components/msda-form-field/msda-form-fie
 import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divider/msda-horizontal-divider.component';
 import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-button-round.component';
 import {MsdaSnackbarComponent} from './components/msda-snackbar/msda-snackbar.component';
+import { MsdaSelectComponent } from './components/msda-select/msda-select.component';
 
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatButtonModule} from '@angular/material/button';
@@ -64,7 +65,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MsdaFormFieldComponent,
     MsdaHorizontalDividerComponent,
     MsdaButtonRoundComponent,
-    MsdaSnackbarComponent
+    MsdaSnackbarComponent,
+    MsdaSelectComponent
   ],
   imports: [
     FlexLayoutModule,

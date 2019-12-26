@@ -16,7 +16,7 @@ export class MsdaSnackBarService {
     // });
 
     this._matSnackBar.openFromComponent(SnackbarComponent, {
-      duration: duration * 100000,
+      duration: duration,
       data: 'test data',
       horizontalPosition: 'left'
     });
