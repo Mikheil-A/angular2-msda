@@ -16,7 +16,9 @@ export class MsdaSnackBarService {
     // });
 
     this._matSnackBar.openFromComponent(SnackbarComponent, {
-      duration: duration
+      duration: duration * 100000,
+      data: 'test data',
+      horizontalPosition: 'left'
     });
   }
 }

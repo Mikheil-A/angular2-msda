@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {MatSnackBarRef} from '@angular/material';
+import {MAT_SNACK_BAR_DATA} from '@angular/material/snack-bar';
 
 
 
@@ -10,10 +11,13 @@ import {MatSnackBarRef} from '@angular/material';
 })
 export class SnackbarComponent implements OnInit {
 
-  constructor(private _matSnackBarRef: MatSnackBarRef<SnackbarComponent>) {
+  constructor(private _matSnackBarRef: MatSnackBarRef<SnackbarComponent>,
+              @Inject(MAT_SNACK_BAR_DATA) public data: any) {
   }
 
   ngOnInit() {
+    console.log(this._matSnackBarRef.containerInstance.snackBarConfig.data);
+    console.log(this.data);
   }
 
 
