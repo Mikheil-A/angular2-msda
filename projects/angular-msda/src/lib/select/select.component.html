@@ -1,0 +1,11 @@
+<mat-form-field appearance="outline">
+  <!--  <mat-label>Favorite food</mat-label>-->
+  <mat-select>
+    <mat-option *ngFor="let item of items" [value]="item.value">
+      {{item.viewValue}}
+
+      <msda-icon *ngIf="item.iconName" name="recycle_bin" width="16" height="16"
+                 color="rgba(33, 33, 33, 0.56)"></msda-icon>
+    </mat-option>
+  </mat-select>
+</mat-form-field>

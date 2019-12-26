@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/snackbar/snackbar.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/snackbar/snackbar.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/msda-select/msda-select.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-select/msda-select.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/msda-select/msda-select.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-select/msda-select.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +117,7 @@
       <workItem from="1577088041472" duration="8054000" />
       <workItem from="1577177130966" duration="7714000" />
       <workItem from="1577269524982" duration="7984000" />
-      <workItem from="1577360070103" duration="4120000" />
+      <workItem from="1577360070103" duration="6461000" />
     </task>
     <servers />
   </component>

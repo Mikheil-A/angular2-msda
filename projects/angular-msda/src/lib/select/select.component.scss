@@ -1,2 +1,40 @@
 .msda-select {
 }
+
+::ng-deep {
+	.mat-select-panel:not([class*='mat-elevation-z']) {
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(84, 110, 122, 0.2), 0px 1px 10px rgba(84, 110, 122, 0.12), 0px 4px 5px rgba(84, 110, 122, 0.14);
+		border-radius: 4px;
+	}
+
+	.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+		letter-spacing: 0.16px;
+		color: #333333;
+	}
+
+	.mat-form-field-appearance-outline.mat-focused {
+		&.mat-form-field-invalid .mat-form-field-outline-thick,
+		& .mat-form-field-outline-thick {
+			color: #212121;
+		}
+	}
+
+	.mat-select-arrow,
+	.mat-form-field.mat-focused.mat-primary .mat-select-arrow {
+		color: #212121;
+	}
+
+	.mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple) {
+		background-color: #F7F7FA;
+	}
+
+	.mat-option-text {
+		display: flex !important;
+		justify-content: space-between;
+	}
+}
