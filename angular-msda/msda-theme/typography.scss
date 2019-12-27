@@ -1,0 +1,32 @@
+@import '~@angular/material/theming';
+
+
+@font-face {
+	font-family: Noto-Sans-Georgian;
+	src: url(assets/fonts/NotoSansGeorgian-Condensed.ttf);
+}
+
+@font-face {
+	font-family: Noto-Sans-Georgian-Bold;
+	src: url(assets/fonts/NotoSansGeorgian-CondensedBold.ttf);
+}
+
+$msda-typography: mat-typography-config(
+		$font-family: 'Noto-Sans-Georgian',
+		$headline: mat-typography-level(32px, 48px, 700),
+		$body-1: mat-typography-level(16px, 24px, 500),
+		$title: mat-typography-level(2px, 32px, 500, Noto-Sans-Georgian),
+		$button: mat-typography-level(14px, 14px, 500),
+		$caption: mat-typography-level(12px, 20px, 400, null, 20px),
+		$input: mat-typography-level(inherit, 1.125, 400)
+);
+
+
+/*$msda-typography2: mat-typography-config(
+		$font-family: 'Montserrat-Bold',
+		$headline: mat-typography-level(320px, 480px, 700),
+		$body-1: mat-typography-level(160px, 240px, 500),
+		$title: mat-typography-level(20px, 32px, 500, Noto-Sans-Georgian),
+		$caption: mat-typography-level(12px, 20px, 400, null, 20px),
+		$input: mat-typography-level(inherit, 1.125, 400)
+);*/

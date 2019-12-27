@@ -1,0 +1,30 @@
+import { OnInit, ElementRef } from '@angular/core';
+export declare class MSDAPlateIcon implements OnInit {
+    private _elementRef;
+    name: string;
+    width: number;
+    height: number;
+    color: string;
+    background: string;
+    shadow: number;
+    type: string;
+    private _wrapperRef;
+    private _backgroundRef;
+    private _iconRef;
+    private _name;
+    private _width;
+    private _height;
+    private _color;
+    private _background;
+    private _shadow;
+    private _type;
+    constructor(_elementRef: ElementRef<HTMLElement>);
+    ngOnInit(): void;
+    private _updateName;
+    private _updateWidth;
+    private _updateHeight;
+    private _updateColor;
+    private _updateBackground;
+    private _updateShadow;
+    private _updateType;
+}
