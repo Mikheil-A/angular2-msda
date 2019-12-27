@@ -642,11 +642,19 @@ THE SOFTWARE.
 
 @angular/material/button
 
+@angular/material/core
+
+@angular/material/select
+
+@angular/material/progress-bar
+
 @angular/material/tooltip
 
 @angular/material/dialog
 
 @angular/material/datepicker
+
+@angular/material/snack-bar
 
 @angular/material/sidenav
 
