@@ -1,5 +1,5 @@
 # angular-msda
->MSDA Custom Components Library
+>MSDA Custom Components Library. Our aim is to build reusable UI components for future use.
 
 * See [Demo](https://mikheil-a.github.io/angular2-msda)
 * [NPM](https://www.npmjs.com/package/angular-msda)
