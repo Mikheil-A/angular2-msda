@@ -1,10 +1,10 @@
 {
   "name": "angular-msda",
-  "version": "0.0.9",
-  "author": "Team MSDA",
+  "version": "0.0.11",
+  "author": "MSDA Team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mikheil-A/angular-msda.git"
+    "url": "https://github.com/Mikheil-A/angular2-msda.git"
   },
   "license": "MSDA",
   "peerDependencies": {

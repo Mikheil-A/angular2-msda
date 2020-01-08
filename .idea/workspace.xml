@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/chips/chips.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/chips/chips.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/chips/chips.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/chips/chips.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/chips/chips.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/chips/chips.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-chips/msda-chips.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-chips/msda-chips.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-chips/msda-chips.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-chips/msda-chips.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,12 +120,17 @@
       <workItem from="1577961555490" duration="857000" />
       <workItem from="1577979084638" duration="77000" />
       <workItem from="1578413725918" duration="1121000" />
-      <workItem from="1578466546003" duration="8223000" />
+      <workItem from="1578466546003" duration="8664000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/dist/angular-msda" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
