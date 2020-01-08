@@ -1,3 +1,34 @@
 .msda-chips {
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: Noto-Sans-Georgian;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	letter-spacing: 0.16px;
 
+	mat-chip {
+		background-color: #FFFFFF;
+		border: 1px solid #E0E0E0;
+		box-sizing: border-box;
+		border-radius: 16px;
+		color: #3966A3;
+		line-height: 18px;
+		font-size: 11px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #F7F7FA;
+		}
+
+		msda-icon {
+			&:hover {
+				::ng-deep svg {
+					fill: #212121;
+				}
+			}
+		}
+	}
 }

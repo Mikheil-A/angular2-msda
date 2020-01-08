@@ -1,28 +1,30 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
+
+
 @Component({
-    selector: 'msda-chips',
-    templateUrl: './chips.component.html',
-    styleUrls: ['./chips.component.scss']
+  selector: 'msda-chips',
+  templateUrl: './chips.component.html',
+  styleUrls: ['./chips.component.scss']
 })
 export class ChipsComponent implements OnInit {
-    @Input() type = 'button';
-    @Input() bgColor: string;
-    @Input() color: string = 'white';
-    @Input() disabled = false;
-    @Input() public showLoading: Boolean;
+  @Input() chips: string[];
+
+  @Output() onChange: EventEmitter<string[]> = new EventEmitter();
 
 
-    @Output() click: EventEmitter<any> = new EventEmitter();
+  constructor() {
+  }
 
-    constructor() {
+  ngOnInit() {
+  }
+
+
+  onRemove(index: number): void {
+    // remove selected chip
+    if (index !== -1) {
+      this.chips.splice(index, 1);
+      this.onChange.emit(this.chips);
     }
-
-    ngOnInit() {
-    }
-
-    onClick(e: Event) {
-        e.stopPropagation();
-        this.click.emit(e);
-    }
+  }
 }

@@ -1,4 +1,11 @@
 <div class="msda-chips">
 
-  <h1>test</h1>
+  <mat-chip-list [selectable]="false">
+    <mat-chip *ngFor="let chip of chips; let i = index"
+              [removable]="true" (removed)="onRemove(i)">
+      {{chip}}
+      <msda-icon matChipRemove name="cancel_circle" width="20" height="20" color="rgba(33, 33, 33, 0.56)"></msda-icon>
+    </mat-chip>
+  </mat-chip-list>
+
 </div>
