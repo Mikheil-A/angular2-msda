@@ -19,6 +19,7 @@ import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divid
 import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-button-round.component';
 import {MsdaSelectComponent} from './components/msda-select/msda-select.component';
 import {MsdaSwitchButtonComponent} from './components/msda-switch-button/msda-switch-button.component';
+import {MsdaChipsComponent} from './components/msda-chips/msda-chips.component';
 
 
 const routes: Routes = [
@@ -77,6 +78,10 @@ const routes: Routes = [
   {
     path: 'component/buttons/msda-switch-button',
     component: MsdaSwitchButtonComponent
+  },
+  {
+    path: 'component/buttons/msda-chips',
+    component: MsdaChipsComponent
   },
   {
     path: 'component/popups-and-modals/msda-toast',

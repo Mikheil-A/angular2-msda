@@ -26,7 +26,7 @@ import {GlobalScssComponent} from './components/global-scss/global-scss.componen
 import {MsdaDialogComponent} from './components/msda-dialog/msda-dialog.component';
 import {DialogComponent} from './components/msda-dialog/dialog/dialog.component';
 import {MsdaButtonComponent} from './components/msda-button/msda-button.component';
-import { MsdaSwitchButtonComponent } from './components/msda-switch-button/msda-switch-button.component';
+import {MsdaSwitchButtonComponent} from './components/msda-switch-button/msda-switch-button.component';
 import {MsdaBannerButtonComponent} from './components/msda-banner-button/msda-banner-button.component';
 import {MsdaToastComponent} from './components/msda-toast/msda-toast.component';
 import {MsdaModuleCardComponent} from './components/msda-module-card/msda-module-card.component';
@@ -35,7 +35,8 @@ import {MsdaFormFieldComponent} from './components/msda-form-field/msda-form-fie
 import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divider/msda-horizontal-divider.component';
 import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-button-round.component';
 import {MsdaSnackbarComponent} from './components/msda-snackbar/msda-snackbar.component';
-import { MsdaSelectComponent } from './components/msda-select/msda-select.component';
+import {MsdaSelectComponent} from './components/msda-select/msda-select.component';
+import {MsdaChipsComponent} from './components/msda-chips/msda-chips.component';
 
 
 
@@ -70,7 +71,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MsdaButtonRoundComponent,
     MsdaSnackbarComponent,
     MsdaSelectComponent,
-    MsdaSwitchButtonComponent
+    MsdaSwitchButtonComponent,
+    MsdaChipsComponent
   ],
   imports: [
     FlexLayoutModule,

@@ -23,6 +23,7 @@ import {IconLabelComponent} from './icon-label/icon-label.component';
 import {FormFieldComponent} from './form-field/form-field.component';
 import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divider.component';
 import {SwitchButtonComponent} from './switch-button/switch-button.component';
+import {ChipsComponent} from './chips/chips.component';
 
 
 // services
@@ -50,7 +51,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     IconLabelComponent,
     FormFieldComponent,
     HorizontalDividerComponent,
-    SwitchButtonComponent
+    SwitchButtonComponent,
+    ChipsComponent
   ],
   imports: [
     CommonModule,
@@ -77,7 +79,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     IconLabelComponent,
     FormFieldComponent,
     HorizontalDividerComponent,
-    SwitchButtonComponent
+    SwitchButtonComponent,
+    ChipsComponent
   ],
   entryComponents: [
     MSDAToast,
