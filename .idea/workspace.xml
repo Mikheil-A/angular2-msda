@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/switch-button/switch-button.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/switch-button/switch-button.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/switch-button/switch-button.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +25,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lawyers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,19 +39,19 @@
     <property name="ts.external.directory.path" value="D:\My Folder\Repos\MSDA\angular2-msda\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src\app\components" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\core\style" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src\assets" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\switch-button" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\select" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\snackbar" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\button-round" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\horizontal-divider" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\form-field" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src\app\components" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\core\style" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src\assets" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -119,7 +127,8 @@
       <workItem from="1577961051880" duration="287000" />
       <workItem from="1577961555490" duration="857000" />
       <workItem from="1577979084638" duration="77000" />
-      <workItem from="1578413725918" duration="1094000" />
+      <workItem from="1578413725918" duration="1121000" />
+      <workItem from="1578466546003" duration="5243000" />
     </task>
     <servers />
   </component>

@@ -26,6 +26,7 @@ import {GlobalScssComponent} from './components/global-scss/global-scss.componen
 import {MsdaDialogComponent} from './components/msda-dialog/msda-dialog.component';
 import {DialogComponent} from './components/msda-dialog/dialog/dialog.component';
 import {MsdaButtonComponent} from './components/msda-button/msda-button.component';
+import { MsdaSwitchButtonComponent } from './components/msda-switch-button/msda-switch-button.component';
 import {MsdaBannerButtonComponent} from './components/msda-banner-button/msda-banner-button.component';
 import {MsdaToastComponent} from './components/msda-toast/msda-toast.component';
 import {MsdaModuleCardComponent} from './components/msda-module-card/msda-module-card.component';
@@ -35,6 +36,8 @@ import {MsdaHorizontalDividerComponent} from './components/msda-horizontal-divid
 import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-button-round.component';
 import {MsdaSnackbarComponent} from './components/msda-snackbar/msda-snackbar.component';
 import { MsdaSelectComponent } from './components/msda-select/msda-select.component';
+
+
 
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatButtonModule} from '@angular/material/button';
@@ -66,7 +69,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MsdaHorizontalDividerComponent,
     MsdaButtonRoundComponent,
     MsdaSnackbarComponent,
-    MsdaSelectComponent
+    MsdaSelectComponent,
+    MsdaSwitchButtonComponent
   ],
   imports: [
     FlexLayoutModule,

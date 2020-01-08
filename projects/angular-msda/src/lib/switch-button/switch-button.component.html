@@ -1,0 +1,8 @@
+<div class="msda-switch-button">
+
+  <msda-icon name="inbox" width="20" height="20" color="rgba(33, 33, 33, 0.54)" (click)="onSwitch(0)"
+             [ngClass]="{'active': !activeButtonId.getValue()}"></msda-icon>
+  <msda-icon name="send" width="20" height="20" color="rgba(33, 33, 33, 0.54)" (click)="onSwitch(1)"
+             [ngClass]="{'active': activeButtonId.getValue()}"></msda-icon>
+
+</div>
