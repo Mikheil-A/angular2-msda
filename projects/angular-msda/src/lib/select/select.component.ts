@@ -1,10 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 
 interface IItems {
-    value: string;
-    viewValue: string;
-    iconName: string;
+  value: string;
+  viewValue: string;
+  iconName: string;
 }
 
 
@@ -16,10 +16,17 @@ interface IItems {
 export class SelectComponent implements OnInit {
   @Input() items: IItems[];
 
+  @Output() change: EventEmitter<any> = new EventEmitter();
+
 
   constructor() {
   }
 
   ngOnInit() {
+  }
+
+
+  onSelectionChange(e: Event) {
+    this.change.emit(e);
   }
 }

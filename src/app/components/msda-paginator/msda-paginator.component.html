@@ -1,5 +1,17 @@
 <div>
-  <msda-paginator [itemsPerPage]="10" [itemsPerPageConfig]="[5, 10, 15, 50]" [totalItems]="100"
-                  (page)="onPage($event)"
-                  (pageConfigChange)="onPageConfigChange($event)"></msda-paginator>
+<!--  <msda-paginator [itemsPerPage]="10" [totalItems]="100"-->
+<!--                  [itemsPerPageConfig]="[{value: 5}, {value: 10}, {value: 15}, {value: 50}]"-->
+<!--                  (page)="onPage($event)"-->
+<!--                  (pageConfigChange)="onPageConfigChange($event)"></msda-paginator>-->
+
+<!--  <msda-paginator [itemsPerPage]="10" [totalItems]="100"-->
+<!--                  [itemsPerPageConfig]="[{value: 5}, {value: 10}, {value: 15}, {value: 50}]"-->
+<!--                  (page)="onPage($event)"-->
+<!--                  (pageConfigChange)="onPageConfigChange($event)"></msda-paginator>-->
+
+  <msda-paginator [length]="100"
+                 [pageSize]="10"
+                 [pageSizeOptions]="[5, 10, 15, 50]"
+                 (page)="onPage($event)">
+  </msda-paginator>
 </div>

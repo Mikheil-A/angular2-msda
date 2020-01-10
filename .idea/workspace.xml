@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/paginator/paginator.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/paginator/paginator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/paginator/paginator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/paginator/paginator.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/paginator/paginator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/paginator/paginator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/msda-paginator/msda-paginator.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-paginator/msda-paginator.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/msda-paginator/msda-paginator.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-paginator/msda-paginator.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +23,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/angular-msda/src/lib/chips" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lawyers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,7 +126,8 @@
       <workItem from="1577961555490" duration="857000" />
       <workItem from="1577979084638" duration="77000" />
       <workItem from="1578413725918" duration="1121000" />
-      <workItem from="1578466546003" duration="8664000" />
+      <workItem from="1578466546003" duration="9478000" />
+      <workItem from="1578660957047" duration="5870000" />
     </task>
     <servers />
   </component>

@@ -1,63 +1,98 @@
-@import '../core/style/variables.scss';
+//@import '../core/style/variables.scss';
+//
+//#container {
+//    display: flex;
+//    flex-direction: row;
+//    align-items: center;
+//    justify-content: space-between;
+//    background-color: $color-white;
+//    box-shadow: 0 1px 0 $color-border;
+//    padding: 8px 24px;
+//    color: $color-font-secondary;
+//
+//    #right-end {
+//        display: flex;
+//        flex-direction: row;
+//        align-items: center;
+//
+//        #select-number-of-records {
+//            select {
+//                border: none;
+//                color: $color-font-secondary;
+//            }
+//        }
+//
+//        #paging-navigation {
+//            display: flex;
+//            flex-direction: row;
+//            align-items: center;
+//            margin-left: 70px;
+//
+//            msda-icon {
+//                cursor: pointer;
+//            }
+//
+//            #current-page-index-indicator {
+//                margin: 0 0 0 30px;
+//                font-weight: bold;
+//            }
+//
+//            input[type="number"] {
+//                background-color: $color-hover-gray;
+//                border-radius: 2px;
+//                border: none;
+//                padding: 10px 12px;
+//                box-sizing: border-box;
+//                width: 64px;
+//                font-weight: bold;
+//
+//                // turning off number input spinners
+//                &::-webkit-outer-spin-button,
+//                &::-webkit-inner-spin-button {
+//                    -webkit-appearance: none;
+//                    margin: 0;
+//                }
+//            }
+//
+//            #total-number-of-pages {
+//                margin: 0 30px 0 4px;
+//                color: $color-font-secondary;
+//            }
+//        }
+//    }
+//}
 
-#container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: $color-white;
-    box-shadow: 0 1px 0 $color-border;
-    padding: 8px 24px;
-    color: $color-font-secondary;
 
-    #right-end {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+.msda-paginator {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	box-shadow: 0px -1px 0px #E0E0E0;
+	align-items: center;
+	font-family: Noto-Sans-Georgian;
+	line-height: 0;
+	font-size: 12px;
+	color: #767676;
+	padding: 0 24px;
 
-        #select-number-of-records {
-            select {
-                border: none;
-                color: $color-font-secondary;
-            }
-        }
+	::ng-deep mat-paginator {
+		mat-form-field {
+			margin-left: 10px;
+		}
 
-        #paging-navigation {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-left: 70px;
+		.mat-form-field-underline, .mat-form-field-subscript-wrapper, .mat-paginator-range-label {
+			display: none;
+		}
 
-            msda-icon {
-                cursor: pointer;
-            }
+		.mat-paginator-page-size {
+			margin-right: 50px;
+		}
 
-            #current-page-index-indicator {
-                margin: 0 0 0 30px;
-                font-weight: bold;
-            }
-
-            input[type="number"] {
-                background-color: $color-hover-gray;
-                border-radius: 2px;
-                border: none;
-                padding: 10px 12px;
-                box-sizing: border-box;
-                width: 64px;
-                font-weight: bold;
-
-                // turning off number input spinners
-                &::-webkit-outer-spin-button,
-                &::-webkit-inner-spin-button {
-                    -webkit-appearance: none;
-                    margin: 0;
-                }
-            }
-
-            #total-number-of-pages {
-                margin: 0 30px 0 4px;
-                color: $color-font-secondary;
-            }
-        }
-    }
+		.mat-select-arrow {
+			margin-right: 25px;
+			margin-top: 3px;
+		}
+	}
 }
+

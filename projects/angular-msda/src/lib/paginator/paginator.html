@@ -1,41 +1,62 @@
-<div id="container" class="msda-body-2">
-    <span>სულ ჩანაწერები: {{totalItems}}</span>
+<!--<div id="container" class="msda-body-2">-->
+<!--  <span>სულ ჩანაწერები: {{totalItems}}</span>-->
 
-    <div id="right-end">
-        <div id="select-number-of-records">
-            <span>გვერდზე ჩანაწერების რაოდენობა: </span>
+<!--  <div id="right-end">-->
+<!--    <div id="select-number-of-records">-->
+<!--      <span>გვერდზე ჩანაწერების რაოდენობა: </span>-->
 
-            <select (change)="onSelectionChange($event)" class="msda-body-2">
-                <option *ngFor="let item of itemsPerPageConfig" [value]="item">
-                    {{item}}
-                </option>
-            </select>
-        </div>
+<!--      <select (change)="onSelectionChange($event)" class="msda-body-2">-->
+<!--        <option *ngFor="let item of itemsPerPageConfig" [value]="item">-->
+<!--          {{item}}-->
+<!--        </option>-->
+<!--      </select>-->
 
-        <div id="paging-navigation">
-            <msda-icon name="chevron_left"
-                       [color]="currentPageIndex <= 1? '#CCCEE0' : '#000000'"
-                       [ngStyle]="{'cursor': currentPageIndex === 1? 'not-allowed' : 'pointer'}"
-                       (click)="previousPage()">
-            </msda-icon>
+<!--      <msda-select *ngIf="itemsPerPageConfig" [items]="itemsPerPageConfig"-->
+<!--                   (change)="onSelectionChange($event)"></msda-select>-->
 
-            <div id="current-page-index-indicator">
-                <input class="msda-body-2" *ngIf="numberOfTotalPages > 2; else withoutInputField"
-                       type="number"
-                       [(ngModel)]="currentPageIndex"
-                       (input)="moveToTheRequestedPage()">
-                <ng-template #withoutInputField>
-                    <span>{{currentPageIndex}}</span>
-                </ng-template>
-            </div>
-            
-            <div id="total-number-of-pages" class="msda-body-2"> - {{numberOfTotalPages}}</div>
+<!--    </div>-->
 
-            <msda-icon name="chevron_right"
-                       [color]="currentPageIndex >= numberOfTotalPages? '#CCCEE0' : '#000000'"
-                       [ngStyle]="{'cursor': currentPageIndex === numberOfTotalPages? 'not-allowed' : 'pointer'}"
-                       (click)="nextPage()">
-            </msda-icon>
-        </div>
-    </div>
+<!--    <div id="paging-navigation">-->
+<!--      <msda-icon name="chevron_left"-->
+<!--                 [color]="currentPageIndex <= 1? '#cccee0' : '#000000'"-->
+<!--                 [ngStyle]="{'cursor': currentPageIndex === 1? 'not-allowed' : 'pointer'}"-->
+<!--                 (click)="previousPage()">-->
+<!--      </msda-icon>-->
+
+<!--      <div id="current-page-index-indicator">-->
+<!--        <input class="msda-body-2" *ngIf="numberOfTotalPages > 2; else withoutInputField"-->
+<!--               type="number"-->
+<!--               [(ngModel)]="currentPageIndex"-->
+<!--               (input)="moveToTheRequestedPage()">-->
+<!--        <ng-template #withoutInputField>-->
+<!--          <span>{{currentPageIndex}}</span>-->
+<!--        </ng-template>-->
+<!--      </div>-->
+
+<!--      <div id="total-number-of-pages" class="msda-body-2"> - {{numberOfTotalPages}}</div>-->
+
+<!--      <msda-icon name="chevron_right"-->
+<!--                 [color]="currentPageIndex >= numberOfTotalPages? '#cccee0' : '#000000'"-->
+<!--                 [ngStyle]="{'cursor': currentPageIndex === numberOfTotalPages? 'not-allowed' : 'pointer'}"-->
+<!--                 (click)="nextPage()">-->
+<!--      </msda-icon>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+
+
+<div class="msda-paginator">
+
+  <span>სულ ჩანაწერები: 44</span>
+
+  <div id="between-paginator-navigation-arrows">{{paginator.pageIndex + 1}} / {{length / pageSize}}</div>
+
+  <mat-paginator [length]="length"
+                 [pageSize]="pageSize"
+                 [pageSizeOptions]="pageSizeOptions"
+                 (page)="onPageSizeOrPageIndexChange($event)">
+  </mat-paginator>
+
 </div>
