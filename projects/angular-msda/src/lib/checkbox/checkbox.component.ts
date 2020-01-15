@@ -1,5 +1,4 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {MatCheckboxChange} from '@angular/material';
 
 
 @Component({
@@ -12,7 +11,7 @@ export class CheckboxComponent implements OnInit {
   @Input() disabled: boolean = false;
   @Input() required: boolean = false;
 
-  @Output() change: EventEmitter<MatCheckboxChange> = new EventEmitter();
+  @Output() change: EventEmitter<any> = new EventEmitter();
 
 
   constructor() {
