@@ -11,7 +11,7 @@ import {MSDAPlateIcon} from './plate-icon/plate-icon';
 import {MSDACardButton} from './card-button/card-button';
 import {MSDACardButtonsContainer} from './card-button/card-buttons-container';
 import {MSDABannerButton} from './banner-button/banner-button';
-import {MSDAPaginator} from './paginator/paginator';
+import {MSDAPaginator} from './paginator/paginator.component';
 import {MSDAMenuButton} from './menu-button/menu-button';
 import {ButtonComponent} from './button/button.component';
 import {SelectComponent} from './select/select.component';
@@ -24,6 +24,7 @@ import {FormFieldComponent} from './form-field/form-field.component';
 import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divider.component';
 import {SwitchButtonComponent} from './switch-button/switch-button.component';
 import {ChipsComponent} from './chips/chips.component';
+import {StepperComponent} from './stepper/stepper.component';
 
 
 // services
@@ -52,7 +53,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     FormFieldComponent,
     HorizontalDividerComponent,
     SwitchButtonComponent,
-    ChipsComponent
+    ChipsComponent,
+    StepperComponent
   ],
   imports: [
     CommonModule,
@@ -80,7 +82,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     FormFieldComponent,
     HorizontalDividerComponent,
     SwitchButtonComponent,
-    ChipsComponent
+    ChipsComponent,
+    StepperComponent
   ],
   entryComponents: [
     MSDAToast,

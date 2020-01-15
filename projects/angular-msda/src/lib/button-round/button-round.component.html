@@ -2,11 +2,9 @@
         [style.backgroundColor]="bgColor"
         [disabled]="disabled"
         (click)="onClick($event)"
-        mat-fab
-        class="msda-button-round">
+        class="msda-button-round"
+        #msdaButton>
 
-  <span class="icon">
-      <ng-content select="msda-icon"></ng-content>
-    </span>
+  <ng-content select="msda-icon"></ng-content>
 
 </button>

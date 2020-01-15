@@ -1,4 +1,7 @@
 .msda-button-round {
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
 
 	&:hover {
 		opacity: 0.84;

@@ -5,8 +5,8 @@ import {MatPaginator, MatPaginatorIntl} from '@angular/material';
 @Component({
   selector: 'msda-paginator',
   exportAs: 'MSDAPaginator',
-  templateUrl: './paginator.html',
-  styleUrls: ['./paginator.scss'],
+  templateUrl: './paginator.component.html',
+  styleUrls: ['./paginator.component.scss'],
   providers: [
     // For overwriting/changing default properties of paginator
     {provide: MatPaginatorIntl, useClass: MSDAPaginator}
