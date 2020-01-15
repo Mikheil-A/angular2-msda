@@ -37,13 +37,13 @@ import {MsdaButtonRoundComponent} from './components/msda-button-round/msda-butt
 import {MsdaSnackbarComponent} from './components/msda-snackbar/msda-snackbar.component';
 import {MsdaSelectComponent} from './components/msda-select/msda-select.component';
 import {MsdaChipsComponent} from './components/msda-chips/msda-chips.component';
-
+import { MsdaStepperComponent } from './components/msda-stepper/msda-stepper.component';
+import { MsdaCheckboxComponent } from './components/msda-checkbox/msda-checkbox.component';
 
 
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
-import { MsdaStepperComponent } from './components/msda-stepper/msda-stepper.component';
 
 
 @NgModule({
@@ -74,7 +74,8 @@ import { MsdaStepperComponent } from './components/msda-stepper/msda-stepper.com
     MsdaSelectComponent,
     MsdaSwitchButtonComponent,
     MsdaChipsComponent,
-    MsdaStepperComponent
+    MsdaStepperComponent,
+    MsdaCheckboxComponent
   ],
   imports: [
     FlexLayoutModule,

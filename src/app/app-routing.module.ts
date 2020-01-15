@@ -21,6 +21,7 @@ import {MsdaSelectComponent} from './components/msda-select/msda-select.componen
 import {MsdaSwitchButtonComponent} from './components/msda-switch-button/msda-switch-button.component';
 import {MsdaChipsComponent} from './components/msda-chips/msda-chips.component';
 import {MsdaStepperComponent} from './components/msda-stepper/msda-stepper.component';
+import {MsdaCheckboxComponent} from './components/msda-checkbox/msda-checkbox.component';
 
 
 const routes: Routes = [
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path: 'component/form-controls/msda-select',
     component: MsdaSelectComponent
+  },
+  {
+    path: 'component/form-controls/msda-checkbox',
+    component: MsdaCheckboxComponent
   },
   {
     path: 'component/navigation/msda-banner-button',

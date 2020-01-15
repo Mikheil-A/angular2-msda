@@ -5,14 +5,17 @@
 * [NPM](https://www.npmjs.com/package/angular-msda)
 * Source code on [GitHub](https://github.com/Mikheil-A/angular2-msda)
 
+
 ## Getting started
 
-### Step 1: Install `angular-msda`:
+### Step 1: Install `angular-material`
+
+### Step 2: Install `angular-msda`:
 ```shell
 npm i angular-msda
 ```
 
-### Step 2: Import MSDA theme into styles.css:
+### Step 3: Import MSDA theme into styles.css:
 ```css
 @import "~angular-msda/msda-theme/msda-theme.scss";
 ```

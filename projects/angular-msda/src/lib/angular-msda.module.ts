@@ -25,6 +25,7 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
 import {SwitchButtonComponent} from './switch-button/switch-button.component';
 import {ChipsComponent} from './chips/chips.component';
 import {StepperComponent} from './stepper/stepper.component';
+import {CheckboxComponent} from './checkbox/checkbox.component'
 
 
 // services
@@ -54,7 +55,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     HorizontalDividerComponent,
     SwitchButtonComponent,
     ChipsComponent,
-    StepperComponent
+    StepperComponent,
+    CheckboxComponent
   ],
   imports: [
     CommonModule,
@@ -83,7 +85,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     HorizontalDividerComponent,
     SwitchButtonComponent,
     ChipsComponent,
-    StepperComponent
+    StepperComponent,
+    CheckboxComponent
   ],
   entryComponents: [
     MSDAToast,

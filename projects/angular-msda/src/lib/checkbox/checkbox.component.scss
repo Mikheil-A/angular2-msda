@@ -1,0 +1,6 @@
+::ng-deep {
+	.mat-checkbox-checked.mat-accent .mat-checkbox-background,
+	.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+		background-color: rgba(33, 33, 33, 0.56) !important;
+	}
+}
