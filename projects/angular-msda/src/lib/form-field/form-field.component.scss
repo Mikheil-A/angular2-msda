@@ -1,7 +1,6 @@
 .msda-form-field {
 	display: inline-block;
 
-
 	::ng-deep {
 		.mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick,
 		.mat-form-field.mat-form-field-invalid.mat-focused .mat-form-field-label,
@@ -30,6 +29,18 @@
 
 		.mat-input-element {
 			color: #333333;
+		}
+
+		.ng-invalid.mat-form-field-invalid {
+			msda-icon {
+				svg {
+					fill: #EA3D2F;
+				}
+			}
+		}
+
+		.mat-form-field-prefix {
+			margin-right: 10px;
 		}
 	}
 }

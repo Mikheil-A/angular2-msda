@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/checkbox/checkbox.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/checkbox/checkbox.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/form-field/form-field.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/msda-form-field/msda-form-field.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-form-field/msda-form-field.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +20,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lawyers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,12 +127,18 @@
       <workItem from="1578660957047" duration="5897000" />
       <workItem from="1578905962090" duration="4456000" />
       <workItem from="1579074236279" duration="9128000" />
-      <workItem from="1579091573453" duration="3249000" />
+      <workItem from="1579091573453" duration="4231000" />
+      <workItem from="1579160293472" duration="1922000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/dist/angular-msda" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

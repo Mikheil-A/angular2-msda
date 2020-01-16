@@ -1,13 +1,13 @@
 <div [formGroup]="fGroup" class="msda-form-field">
 
-  <mat-form-field appearance="outline">
+  <mat-form-field appearance="outline" (change)="test($event)">
     <mat-label>{{placeholder}}</mat-label>
 
     <msda-icon *ngIf="prefixIcon" matPrefix
                [name]="prefixIcon"
                width="22"
                height="22"
-               color="#E3515A">
+               color="#212121">
     </msda-icon>
 
     <input matInput [placeholder]="placeholder" [formControlName]="fcName" [value]="value ? value: ''"
@@ -17,7 +17,7 @@
                [name]="suffixIcon"
                width="22"
                height="22"
-               color="#E3515A">
+               color="#212121">
     </msda-icon>
 
     <mat-hint *ngIf="hint">{{hint}}</mat-hint>
