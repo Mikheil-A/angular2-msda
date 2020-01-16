@@ -3,6 +3,10 @@
 	border: none;
 	cursor: pointer;
 
+	&:focus {
+		outline: none;
+	}
+
 	&:hover {
 		opacity: 0.84;
 	}
