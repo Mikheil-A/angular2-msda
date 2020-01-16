@@ -1,17 +1,17 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 
+
 @Component({
-    selector: 'msda-button',
-    templateUrl: './button.component.html',
-    styleUrls: ['./button.component.scss']
+    selector: 'msda-button-square',
+    templateUrl: './button-square.component.html',
+    styleUrls: ['./button-square.component.scss']
 })
-export class ButtonComponent implements OnInit {
+export class ButtonSquareComponent implements OnInit {
     @Input() type = 'button';
     @Input() bgColor: string;
     @Input() color: string = 'white';
     @Input() disabled = false;
-    @Input() public showLoading: Boolean;
 
 
     @Output() click: EventEmitter<any> = new EventEmitter();

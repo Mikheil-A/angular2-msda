@@ -14,6 +14,7 @@ import {MSDABannerButton} from './banner-button/banner-button';
 import {MSDAPaginator} from './paginator/paginator.component';
 import {MSDAMenuButton} from './menu-button/menu-button';
 import {ButtonComponent} from './button/button.component';
+import {ButtonSquareComponent} from './button-square/button-square.component';
 import {SelectComponent} from './select/select.component';
 import {SnackbarComponent} from './snackbar/snackbar.component';
 import {ButtonRoundComponent} from './button-round/button-round.component';
@@ -56,7 +57,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     SwitchButtonComponent,
     ChipsComponent,
     StepperComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    ButtonSquareComponent
   ],
   imports: [
     CommonModule,
@@ -86,7 +88,8 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     SwitchButtonComponent,
     ChipsComponent,
     StepperComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    ButtonSquareComponent
   ],
   entryComponents: [
     MSDAToast,
