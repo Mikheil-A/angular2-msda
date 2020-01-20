@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select2/select2.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select2/select2.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select2/select2.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/select/select.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/angular-msda.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/msda-select/msda-select.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-select/msda-select.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +21,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lawyers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -34,19 +35,19 @@
     <property name="ts.external.directory.path" value="D:\My Folder\Repos\MSDA\angular2-msda\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\button-square" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\checkbox" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\stepper" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\chips" />
-      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\switch-button" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src\app\components" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\core\style" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\src\assets" />
       <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\select2" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\button-square" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\checkbox" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\stepper" />
+      <recent name="D:\My Folder\Repos\MSDA\angular2-msda\projects\angular-msda\src\lib\chips" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,7 +130,7 @@
       <workItem from="1579074236279" duration="9128000" />
       <workItem from="1579091573453" duration="4231000" />
       <workItem from="1579160293472" duration="9057000" />
-      <workItem from="1579507220189" duration="3384000" />
+      <workItem from="1579507220189" duration="5763000" />
     </task>
     <servers />
   </component>

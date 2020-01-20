@@ -1,0 +1,11 @@
+<mat-form-field floatLabel="never">
+
+  <mat-select (selectionChange)="onSelectionChange($event)"
+              [disabled]="disabled"
+              [placeholder]="placeholder">
+    <mat-option *ngFor="let item of items" [value]="item.value">
+      {{item.viewValue ? item.viewValue : item.value}}
+    </mat-option>
+  </mat-select>
+
+</mat-form-field>

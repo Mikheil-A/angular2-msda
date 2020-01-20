@@ -16,6 +16,7 @@ import {MSDAMenuButton} from './menu-button/menu-button';
 import {ButtonComponent} from './button/button.component';
 import {ButtonSquareComponent} from './button-square/button-square.component';
 import {SelectComponent} from './select/select.component';
+import {Select2Component} from './select2/select2.component';
 import {SnackbarComponent} from './snackbar/snackbar.component';
 import {ButtonRoundComponent} from './button-round/button-round.component';
 import {MSDAToast} from './toast/toast';
@@ -26,7 +27,7 @@ import {HorizontalDividerComponent} from './horizontal-divider/horizontal-divide
 import {SwitchButtonComponent} from './switch-button/switch-button.component';
 import {ChipsComponent} from './chips/chips.component';
 import {StepperComponent} from './stepper/stepper.component';
-import {CheckboxComponent} from './checkbox/checkbox.component'
+import {CheckboxComponent} from './checkbox/checkbox.component';
 
 
 // services
@@ -48,6 +49,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     MSDAToast,
     ButtonComponent,
     SelectComponent,
+    Select2Component,
     SnackbarComponent,
     ButtonRoundComponent,
     ModuleCardComponent,
@@ -79,6 +81,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     MSDAToast,
     ButtonComponent,
     SelectComponent,
+    Select2Component,
     SnackbarComponent,
     ButtonRoundComponent,
     ModuleCardComponent,
