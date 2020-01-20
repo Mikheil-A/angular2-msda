@@ -1,7 +1,7 @@
 <mat-form-field appearance="outline">
   <mat-label>{{label}}</mat-label>
 
-  <mat-select (selectionChange)="onSelectionChange($event)">
+  <mat-select (selectionChange)="onSelectionChange($event)" [disabled]="disabled">
     <mat-option *ngFor="let item of items" [value]="item.value">
       {{item.viewValue ? item.viewValue : item.value}}
 

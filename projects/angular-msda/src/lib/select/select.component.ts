@@ -17,6 +17,7 @@ export class SelectComponent implements OnInit {
   @Input() items: IItems[];
   @Input() hint: string;
   @Input() label: string;
+  @Input() disabled: boolean = false;
 
   @Output() change: EventEmitter<any> = new EventEmitter();
 
