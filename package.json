@@ -28,6 +28,7 @@
     "@angular/router": "~7.1.2",
     "core-js": "^2.5.4",
     "html5sortable": "^0.9.8",
+    "material-components-web": "^4.0.0",
     "ngx-markdown": "^7.0.2",
     "prismjs": "^1.15.0",
     "rxjs": "~6.3.3",

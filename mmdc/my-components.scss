@@ -1,0 +1,20 @@
+// Material Theming
+// After importing all MDC Web components, apply mixins to theme individual components
+
+.mdc-menu-surface  {
+  background-color: #fff;
+}
+
+.mdc-select__dropdown-icon {
+  bottom: 8px;
+}
+
+.mdc-select--outlined .mdc-select__selected-text {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 40px;
+}
+
+.mdc-select--activated .mdc-select__dropdown-icon {
+  transform: rotate(180deg);
+}

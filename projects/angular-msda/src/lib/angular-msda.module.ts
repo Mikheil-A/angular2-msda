@@ -29,6 +29,8 @@ import {ChipsComponent} from './chips/chips.component';
 import {StepperComponent} from './stepper/stepper.component';
 import {CheckboxComponent} from './checkbox/checkbox.component';
 
+import {MmdcTextfieldDirective} from './mmdc-textfield.directive';
+
 
 // services
 import {MSDAToastService} from './toast/toast.service';
@@ -60,6 +62,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     ChipsComponent,
     StepperComponent,
     CheckboxComponent,
+    MmdcTextfieldDirective,
     ButtonSquareComponent
   ],
   imports: [
@@ -92,6 +95,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     ChipsComponent,
     StepperComponent,
     CheckboxComponent,
+    MmdcTextfieldDirective,
     ButtonSquareComponent
   ],
   entryComponents: [

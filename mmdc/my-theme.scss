@@ -1,0 +1,30 @@
+@import "@material/theme/functions";
+
+//
+// Main theme colors for your brand.
+//
+// If you're a user customizing your color scheme in SASS, these are probably the only variables you need to change.
+//
+
+$mdc-theme-primary: #212121 !default;
+$mdc-theme-on-primary: if(mdc-theme-contrast-tone($mdc-theme-primary) == "dark", #000, #fff) !default;
+
+// The $mdc-theme-accent variable is DEPRECATED - it exists purely for backward compatibility.
+// The $mdc-theme-secondary* variables should be used for all new projects.
+$mdc-theme-accent: #018786 !default; // baseline teal, 600 tone
+$mdc-theme-secondary: $mdc-theme-accent !default;
+$mdc-theme-on-secondary: if(mdc-theme-contrast-tone($mdc-theme-secondary) == "dark", #000, #fff) !default;
+$mdc-theme-background: #fff !default; // White
+
+$mdc-theme-surface: #e5e6ee !default;
+$mdc-theme-on-surface: if(mdc-theme-contrast-tone($mdc-theme-surface) == "dark", #000, #fff) !default;
+
+$mdc-theme-error: #b00020 !default;
+$mdc-theme-on-error: if(mdc-theme-contrast-tone($mdc-theme-error) == "dark", #000, #fff) !default;
+
+$mdc-typography-font-family: unquote("Noto Sans Georgian") !default;
+
+$mdc-select-height: 40px !default;
+
+$mdc-text-field-height: 40px !default;
+$mdc-text-field-minimum-height: 32px !default;

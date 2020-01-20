@@ -22,6 +22,7 @@ import {MsdaSwitchButtonComponent} from './components/msda-switch-button/msda-sw
 import {MsdaChipsComponent} from './components/msda-chips/msda-chips.component';
 import {MsdaStepperComponent} from './components/msda-stepper/msda-stepper.component';
 import {MsdaCheckboxComponent} from './components/msda-checkbox/msda-checkbox.component';
+import {MsdaTextfieldComponent} from './components/msda-textfield/msda-textfield.component';
 
 
 const routes: Routes = [
@@ -52,6 +53,10 @@ const routes: Routes = [
   {
     path: 'component/form-controls/msda-checkbox',
     component: MsdaCheckboxComponent
+  },
+  {
+    path: 'component/form-controls/msda-textfield',
+    component: MsdaTextfieldComponent
   },
   {
     path: 'component/navigation/msda-banner-button',
