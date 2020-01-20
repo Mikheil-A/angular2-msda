@@ -33,8 +33,22 @@
 		background-color: #F7F7FA;
 	}
 
+	.mat-option:hover {
+		background-color: #F7F7FA !important;
+	}
+
 	.mat-option-text {
 		display: flex !important;
 		justify-content: space-between;
+	}
+
+	mat-label, mat-hint {
+		font-family: Noto-Sans-Georgian;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+		letter-spacing: 0.16px;
+		color: rgba(33, 33, 33, 0.56);
 	}
 }

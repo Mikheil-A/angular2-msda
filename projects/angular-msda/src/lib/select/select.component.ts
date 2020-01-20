@@ -15,6 +15,8 @@ interface IItems {
 })
 export class SelectComponent implements OnInit {
   @Input() items: IItems[];
+  @Input() hint: string;
+  @Input() label: string;
 
   @Output() change: EventEmitter<any> = new EventEmitter();
 

@@ -1,7 +1,7 @@
 <mat-form-field appearance="outline">
-  <!--  <mat-label>Favorite food</mat-label>-->
-  <mat-select (selectionChange)="onSelectionChange($event)">
+  <mat-label>{{label}}</mat-label>
 
+  <mat-select (selectionChange)="onSelectionChange($event)">
     <mat-option *ngFor="let item of items" [value]="item.value">
       {{item.viewValue ? item.viewValue : item.value}}
 
@@ -9,4 +9,6 @@
                  color="rgba(33, 33, 33, 0.56)"></msda-icon>
     </mat-option>
   </mat-select>
+
+  <mat-hint>{{hint}}</mat-hint>
 </mat-form-field>
