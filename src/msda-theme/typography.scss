@@ -11,6 +11,22 @@
 	src: url(assets/fonts/NotoSansGeorgian-CondensedBold.ttf);
 }
 
+@font-face {
+	font-family: BPG-DejaVu-Sans;
+	src: url(assets/fonts/BPGDejaVuSans.ttf);
+}
+
+@font-face {
+	font-family: BPG-DejaVu-Sans-Bold;
+	src: url(assets/fonts/BPGDejaVuSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: BPG-DejaVu-Sans-Caps-Web;
+	src: url(assets/fonts/BPGDejaVuSansCapsWeb.ttf);
+}
+
+
 $msda-typography: mat-typography-config(
 		$font-family: 'Noto-Sans-Georgian',
 		$headline: mat-typography-level(32px, 48px, 700),
