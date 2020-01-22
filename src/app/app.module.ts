@@ -40,6 +40,7 @@ import {MsdaChipsComponent} from './components/msda-chips/msda-chips.component';
 import {MsdaStepperComponent} from './components/msda-stepper/msda-stepper.component';
 import {MsdaCheckboxComponent} from './components/msda-checkbox/msda-checkbox.component';
 import {MsdaTextfieldComponent} from './components/msda-textfield/msda-textfield.component';
+import {MsdaGridComponent} from './components/msda-grid/msda-grid.component';
 
 
 import {MatProgressBarModule} from '@angular/material/progress-bar';
@@ -77,7 +78,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MsdaChipsComponent,
     MsdaStepperComponent,
     MsdaCheckboxComponent,
-    MsdaTextfieldComponent
+    MsdaTextfieldComponent,
+    MsdaGridComponent
   ],
   imports: [
     FlexLayoutModule,

@@ -9,7 +9,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    
     "buildMmdc": "cd mmdc && npm run build",
     "angularmsdabuild": "ng build angular-msda && gulp",
     "angularmsdapublish": "cd dist/angular-msda && npm publish"

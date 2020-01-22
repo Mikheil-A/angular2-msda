@@ -28,6 +28,7 @@ import {SwitchButtonComponent} from './switch-button/switch-button.component';
 import {ChipsComponent} from './chips/chips.component';
 import {StepperComponent} from './stepper/stepper.component';
 import {CheckboxComponent} from './checkbox/checkbox.component';
+import {GridComponent} from './grid/grid.component';
 
 import {MmdcTextfieldDirective} from './mmdc-textfield.directive';
 
@@ -62,6 +63,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     ChipsComponent,
     StepperComponent,
     CheckboxComponent,
+    GridComponent,
     MmdcTextfieldDirective,
     ButtonSquareComponent
   ],
@@ -95,6 +97,7 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     ChipsComponent,
     StepperComponent,
     CheckboxComponent,
+    GridComponent,
     MmdcTextfieldDirective,
     ButtonSquareComponent
   ],

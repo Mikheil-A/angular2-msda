@@ -23,6 +23,7 @@ import {MsdaChipsComponent} from './components/msda-chips/msda-chips.component';
 import {MsdaStepperComponent} from './components/msda-stepper/msda-stepper.component';
 import {MsdaCheckboxComponent} from './components/msda-checkbox/msda-checkbox.component';
 import {MsdaTextfieldComponent} from './components/msda-textfield/msda-textfield.component';
+import {MsdaGridComponent} from './components/msda-grid/msda-grid.component';
 
 
 const routes: Routes = [
@@ -69,6 +70,10 @@ const routes: Routes = [
   {
     path: 'component/data-table/msda-paginator',
     component: MsdaPaginatorComponent
+  },
+  {
+    path: 'component/data-table/msda-grid',
+    component: MsdaGridComponent
   },
   {
     path: 'component/dialog/msda-dialog',
