@@ -38,6 +38,10 @@ import {MSDAToastService} from './toast/toast.service';
 import {MsdaSnackBarService} from './snackbar/snackbar.service';
 
 
+// pipes
+import {TruncatePipe} from './grid/truncate.pipe';
+
+
 
 @NgModule({
   declarations: [
@@ -65,7 +69,10 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     CheckboxComponent,
     GridComponent,
     MmdcTextfieldDirective,
-    ButtonSquareComponent
+    ButtonSquareComponent,
+
+    //  pipes
+    TruncatePipe
   ],
   imports: [
     CommonModule,
@@ -99,7 +106,10 @@ import {MsdaSnackBarService} from './snackbar/snackbar.service';
     CheckboxComponent,
     GridComponent,
     MmdcTextfieldDirective,
-    ButtonSquareComponent
+    ButtonSquareComponent,
+
+    //  pipes
+    TruncatePipe
   ],
   entryComponents: [
     MSDAToast,

@@ -1,10 +1,11 @@
-<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+<table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8"
+       (matSortChange)="onSortChange($event)">
 
   <div *ngFor="let columnEn of displayedColumnsEng; index as i">
 
     <ng-container matColumnDef="{{columnEn}}">
-      <th mat-header-cell *matHeaderCellDef>{{displayedColumnsGeo[i]}}</th>
-      <td mat-cell *matCellDef="let row"> {{row[columnEn]}} </td>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>{{displayedColumnsGeo[i]}}</th>
+      <td mat-cell *matCellDef="let row">{{row[columnEn] | truncate}}</td>
     </ng-container>
 
   </div>

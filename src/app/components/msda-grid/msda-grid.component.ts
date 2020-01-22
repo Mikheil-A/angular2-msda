@@ -23,4 +23,8 @@ export class MsdaGridComponent implements OnInit {
   ngOnInit() {
   }
 
+  sort(e) {
+    console.log(e);
+  }
+
 }
