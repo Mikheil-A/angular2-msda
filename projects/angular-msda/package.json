@@ -7,6 +7,13 @@
     "url": "https://github.com/Mikheil-A/angular2-msda.git"
   },
   "license": "MSDA",
+  "keywords": [
+    "angular",
+    "material design",
+    "angular-material",
+    "UI components",
+    "angular library"
+  ],
   "peerDependencies": {
     "@angular/common": "^7.0.0",
     "@angular/core": "^7.0.0",

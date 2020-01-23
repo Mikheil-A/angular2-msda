@@ -13,7 +13,8 @@ export class GridComponent implements OnInit {
 
   @Input() dataSource: any;
 
-  @ViewChild(MatSort, {static: true}) matSort: MatSort;
+  // @ViewChild(MatSort, {static: true}) matSort: MatSort;
+  @ViewChild(MatSort) matSort: MatSort;
 
   @Output() onSort: EventEmitter<{ active: string, direction: string }> = new EventEmitter();
 
