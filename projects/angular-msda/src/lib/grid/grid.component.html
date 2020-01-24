@@ -3,10 +3,42 @@
 
   <div *ngFor="let columnEn of displayedColumnsEng; index as i">
 
-    <ng-container matColumnDef="{{columnEn}}">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>{{displayedColumnsGeo[i]}}</th>
-      <td mat-cell *matCellDef="let row">{{row[columnEn] | truncate}}</td>
-    </ng-container>
+    <div *ngIf="columnEn === 'plateIcon'">
+      <ng-container matColumnDef="{{columnEn}}">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let row">
+          <msda-plate-icon
+              name="{{row[columnEn].name}}"
+              type="square"
+              width="32"
+              height="32"
+              color="#FFFFFF"
+              background="{{row[columnEn].color}}">
+          </msda-plate-icon>
+        </td>
+      </ng-container>
+    </div>
+
+    <div *ngIf="columnEn !== 'plateIcon' && columnEn !== 'actionIcons'">
+      <ng-container matColumnDef="{{columnEn}}">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>{{displayedColumnsGeo[i]}}</th>
+        <td mat-cell *matCellDef="let row">{{row[columnEn] | truncate}}</td>
+      </ng-container>
+    </div>
+
+    <div *ngIf="columnEn === 'actionIcons'">
+      <ng-container matColumnDef="{{columnEn}}">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let row">
+          <msda-icon *ngFor="let icon of row[columnEn]"
+                     [name]="icon"
+                     width="22"
+                     height="22"
+                     color="#212121">
+          </msda-icon>
+        </td>
+      </ng-container>
+    </div>
 
   </div>
 
