@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b08747c-bfa0-462f-9f58-a32ca0913210" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/grid/grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/grid/grid.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/angular-msda/src/lib/grid/grid.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/angular-msda/src/lib/grid/grid.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-grid/msda-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-grid/msda-grid.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/msda-grid/msda-grid.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/msda-grid/msda-grid.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +19,7 @@
   <component name="ProjectId" id="1UpmTrnaAmsBEYKvsb6K2iy4ePt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lawyers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,7 +135,11 @@
       <workItem from="1579789389811" duration="1259000" />
       <workItem from="1579791247235" duration="125000" />
       <workItem from="1579805911381" duration="212000" />
-      <workItem from="1579870035084" duration="3325000" />
+      <workItem from="1579870035084" duration="3425000" />
+      <workItem from="1580457906559" duration="222000" />
+      <workItem from="1580719171240" duration="283000" />
+      <workItem from="1580727733782" duration="829000" />
+      <workItem from="1581153912598" duration="38000" />
     </task>
     <servers />
   </component>
