@@ -31,7 +31,7 @@
     "html5sortable": "^0.9.8",
     "material-components-web": "^4.0.0",
     "ngx-markdown": "^7.0.2",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.21.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
